@@ -1,0 +1,11 @@
+<map id="domain.Filter.filterBy" name="domain.Filter.filterBy">
+<area shape="rect" id="node2" href="$classcontroller_1_1_rail_system.html#aecab2f33307d056fc39b715421705d62" title="controller.RailSystem.filter\lByStops1" alt="" coords="195,5,369,47"/>
+<area shape="rect" id="node7" href="$classcontroller_1_1_rail_system.html#aac5dfeee25bd54a9a4bbdb64d52acf9f" title="controller.RailSystem.filter\lByStops2" alt="" coords="195,136,369,177"/>
+<area shape="rect" id="node9" href="$classcontroller_1_1_rail_system.html#af0f79e772114a04e35ee1f0a8eae66e4" title="controller.RailSystem.filter\lByDistance" alt="" coords="195,71,369,112"/>
+<area shape="rect" id="node10" href="$classtest_1_1_filter_test.html#abd2f49938ef9663ecee1953d09bae933" title="test.FilterTest.testFilterBy" alt="" coords="195,202,369,229"/>
+<area shape="rect" id="node3" href="$classfrontend_1_1_display.html#a80dcb9108b718e006f2f97f287619236" title="frontend.Display.showAll\lResults" alt="" coords="419,71,583,112"/>
+<area shape="rect" id="node6" href="$classtest_1_1_rail_system_test.html#a788f13f636cb5c25db513fff9fe8668b" title="test.RailSystemTest.test\lFilterByStops1" alt="" coords="417,5,584,47"/>
+<area shape="rect" id="node4" href="$classsoftware_1_1main.html#a20702c213493bc103f21bea8d159f810" title="software.main.runSW" alt="" coords="632,78,779,105"/>
+<area shape="rect" id="node5" href="$classsoftware_1_1main.html#ac0127d8d05cf1b1a55d045818ce34a68" title="software.main.main" alt="" coords="827,78,961,105"/>
+<area shape="rect" id="node8" href="$classtest_1_1_rail_system_test.html#a2a1e9411ccf36a39296c00a201f17f37" title="test.RailSystemTest.test\lFilterByStops2" alt="" coords="417,136,584,177"/>
+</map>

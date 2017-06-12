@@ -1,0 +1,11 @@
+<map id="domain.CalculateDistance.calculate" name="domain.CalculateDistance.calculate">
+<area shape="rect" id="node2" href="$classdomain_1_1_calculate_distance.html#a188113ff0f6a119f4addd523b5e06a9c" title="domain.CalculateDistance.calculateAll" alt="" coords="283,78,527,105"/>
+<area shape="rect" id="node9" href="$classdomain_1_1_shortest_route.html#a6378b797c933b6ebb2a48447761e02f7" title="domain.ShortestRoute.get\lShortestRoute" alt="" coords="318,129,491,171"/>
+<area shape="rect" id="node10" href="$classtest_1_1_calculate_distance_test.html#ae21407ac9f926798d08a69dfdbb6fcbe" title="test.CalculateDistanceTest.test\lCalculate" alt="" coords="303,195,507,236"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1_rail_system.html#ac9b98bc0b0a485cc9c4a85cc6814186e" title="controller.RailSystem.calculate\lDistance" alt="" coords="575,39,778,80"/>
+<area shape="rect" id="node8" href="$classtest_1_1_calculate_distance_test.html#ad6642d43b502c0bf9bd3876fc3303d14" title="test.CalculateDistanceTest.test\lCalculateAll" alt="" coords="575,104,779,145"/>
+<area shape="rect" id="node4" href="$classfrontend_1_1_display.html#a80dcb9108b718e006f2f97f287619236" title="frontend.Display.showAll\lResults" alt="" coords="828,5,992,47"/>
+<area shape="rect" id="node7" href="$classtest_1_1_rail_system_test.html#a5d1486af4e81c48f82549f1a57eff766" title="test.RailSystemTest.test\lCalculateDistance" alt="" coords="827,71,993,112"/>
+<area shape="rect" id="node5" href="$classsoftware_1_1main.html#a20702c213493bc103f21bea8d159f810" title="software.main.runSW" alt="" coords="1041,13,1188,39"/>
+<area shape="rect" id="node6" href="$classsoftware_1_1main.html#ac0127d8d05cf1b1a55d045818ce34a68" title="software.main.main" alt="" coords="1236,13,1371,39"/>
+</map>

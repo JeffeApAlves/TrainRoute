@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classcontroller_1_1_rail_system">
+<title>controller::RailSystem class Reference</title>
+<para>Inheritance diagram for controller::RailSystem</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classcontroller_1_1_rail_system__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for controller::RailSystem</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classcontroller_1_1_rail_system__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classcontroller_1_1_rail_system_1aecab2f33307d056fc39b715421705d62">filterByStops1</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classcontroller_1_1_rail_system_1aac5dfeee25bd54a9a4bbdb64d52acf9f">filterByStops2</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classcontroller_1_1_rail_system_1af0f79e772114a04e35ee1f0a8eae66e4">filterByDistance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classcontroller_1_1_rail_system_1ac9b98bc0b0a485cc9c4a85cc6814186e">calculateDistance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Map&lt; String,<link linkend="classdomain_1_1_route">Route</link>[]&gt; <link linkend="classcontroller_1_1_rail_system_1a4eccf86f1b3525490c6d44b0522d746b">shortestRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static boolean <link linkend="classcontroller_1_1_rail_system_1aaa1ab4d489fd21a5e968723c2afd89b2">init</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classcontroller_1_1_rail_system_1a03e61f5c81b49dfc59b0d3b7eefc1067">deInit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classcontroller_1_1_rail_system_1aecab2f33307d056fc39b715421705d62">
+                <title>static Route [] controller.RailSystem.filterByStops1 ()</title> <emphasis></emphasis>
+                
+<para>Condicao do filtro STOPS &lt;= 3</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Retorna rotas filtradas pela condicao </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1aac5dfeee25bd54a9a4bbdb64d52acf9f">
+                <title>static Route [] controller.RailSystem.filterByStops2 ()</title> <emphasis></emphasis>
+                
+<para>Condicao do filtro STOPS == 4</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Retorna rotas filtradas pela condicao </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1af0f79e772114a04e35ee1f0a8eae66e4">
+                <title>static Route [] controller.RailSystem.filterByDistance ()</title> <emphasis></emphasis>
+                
+<para>Condicao do filtro DISTANCE &lt; 30</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Retorna rotas filtradas pela condicao </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1ac9b98bc0b0a485cc9c4a85cc6814186e">
+                <title>static Route [] controller.RailSystem.calculateDistance ()</title> <emphasis></emphasis>
+                
+<para>Calcula as distancias da rotas do arquivo</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Lista de rotas com as disnticas calculadas </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1a4eccf86f1b3525490c6d44b0522d746b">
+                <title>static Map&lt;String ,Route[]&gt; controller.RailSystem.shortestRoute ()</title> <emphasis></emphasis>
+                
+<para>Mapeia todas as rotas mais curtas de todas as viagens</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Lista de rotas mais curtas para a viagem/rota </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1aaa1ab4d489fd21a5e968723c2afd89b2">
+                <title>static boolean controller.RailSystem.init ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classcontroller_1_1_rail_system_1a03e61f5c81b49dfc59b0d3b7eefc1067">
+                <title>static void controller.RailSystem.deInit ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

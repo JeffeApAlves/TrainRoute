@@ -1,0 +1,8 @@
+<map id="test.RouteTest.testGetIdOfStop" name="test.RouteTest.testGetIdOfStop">
+<area shape="rect" id="node2" href="$classdomain_1_1_route.html#ac152ebbec9a46aee30cdd98c3a35a6d5" title="domain.Route.setRoute" alt="" coords="231,56,390,83"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_route.html#aec22d9627aa0a3afd7bf20a61a0f4695" title="domain.Route.getKeyOfStop" alt="" coords="217,107,404,133"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a3b472fbb44362997723edf02014bc77f" title="domain.Route.setKey" alt="" coords="480,5,627,32"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_route.html#a33d5c5c64f0fdb4a0317ec0019bedc5a" title="domain.Route.setTotalDistance" alt="" coords="452,56,655,83"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="703,5,868,32"/>
+<area shape="rect" id="node7" href="$classdomain_1_1_route.html#a5a9ed7d2692549002ab7ae59a3b5b5d9" title="domain.Route.getKey" alt="" coords="480,107,627,133"/>
+</map>

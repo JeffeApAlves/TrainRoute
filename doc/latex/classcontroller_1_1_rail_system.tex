@@ -1,0 +1,190 @@
+\hypertarget{classcontroller_1_1_rail_system}{}\section{controller.\+Rail\+System Class Reference}
+\label{classcontroller_1_1_rail_system}\index{controller.\+Rail\+System@{controller.\+Rail\+System}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_rail_system_aecab2f33307d056fc39b715421705d62}{filter\+By\+Stops1} ()
+\item 
+static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_rail_system_aac5dfeee25bd54a9a4bbdb64d52acf9f}{filter\+By\+Stops2} ()
+\item 
+static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_rail_system_af0f79e772114a04e35ee1f0a8eae66e4}{filter\+By\+Distance} ()
+\item 
+static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_rail_system_ac9b98bc0b0a485cc9c4a85cc6814186e}{calculate\+Distance} ()
+\item 
+static Map$<$ String,\hyperlink{classdomain_1_1_route}{Route}\mbox{[}$\,$\mbox{]}$>$ \hyperlink{classcontroller_1_1_rail_system_a4eccf86f1b3525490c6d44b0522d746b}{shortest\+Route} ()
+\item 
+static boolean \hyperlink{classcontroller_1_1_rail_system_aaa1ab4d489fd21a5e968723c2afd89b2}{init} ()
+\item 
+static void \hyperlink{classcontroller_1_1_rail_system_a03e61f5c81b49dfc59b0d3b7eefc1067}{de\+Init} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_ac9b98bc0b0a485cc9c4a85cc6814186e}\label{classcontroller_1_1_rail_system_ac9b98bc0b0a485cc9c4a85cc6814186e}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!calculate\+Distance@{calculate\+Distance}}
+\index{calculate\+Distance@{calculate\+Distance}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{calculate\+Distance()}{calculateDistance()}}
+{\footnotesize\ttfamily static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} controller.\+Rail\+System.\+calculate\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calcula as distancias da rotas mapeadas no arquivo na propriedade \textquotesingle{}distance.\+routes\textquotesingle{}
+
+\begin{DoxyReturn}{Returns}
+Retorna lista de rotas com as distancias calculadas 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_ac9b98bc0b0a485cc9c4a85cc6814186e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_ac9b98bc0b0a485cc9c4a85cc6814186e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_a03e61f5c81b49dfc59b0d3b7eefc1067}\label{classcontroller_1_1_rail_system_a03e61f5c81b49dfc59b0d3b7eefc1067}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!de\+Init@{de\+Init}}
+\index{de\+Init@{de\+Init}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{de\+Init()}{deInit()}}
+{\footnotesize\ttfamily static void controller.\+Rail\+System.\+de\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Finaliza o sistema de rotas Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_a03e61f5c81b49dfc59b0d3b7eefc1067_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_af0f79e772114a04e35ee1f0a8eae66e4}\label{classcontroller_1_1_rail_system_af0f79e772114a04e35ee1f0a8eae66e4}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!filter\+By\+Distance@{filter\+By\+Distance}}
+\index{filter\+By\+Distance@{filter\+By\+Distance}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{filter\+By\+Distance()}{filterByDistance()}}
+{\footnotesize\ttfamily static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} controller.\+Rail\+System.\+filter\+By\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Esse filtro esta mapeado no arquivo de entrada com o index = 3(\hyperlink{classutilities_1_1_data_file_a7db48e719d69b2fb08dec6730949acf9}{Data\+File.\+D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}) Condicao do filtro D\+I\+S\+T\+A\+N\+CE $<$ 30
+
+\begin{DoxyReturn}{Returns}
+Retorna uma lista de rotas filtradas pela condicao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_af0f79e772114a04e35ee1f0a8eae66e4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_af0f79e772114a04e35ee1f0a8eae66e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_aecab2f33307d056fc39b715421705d62}\label{classcontroller_1_1_rail_system_aecab2f33307d056fc39b715421705d62}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!filter\+By\+Stops1@{filter\+By\+Stops1}}
+\index{filter\+By\+Stops1@{filter\+By\+Stops1}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{filter\+By\+Stops1()}{filterByStops1()}}
+{\footnotesize\ttfamily static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} controller.\+Rail\+System.\+filter\+By\+Stops1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Esse filtro esta mapeado no arquivo de entrada com o index = 1(\hyperlink{classutilities_1_1_data_file_a73169a0777ef2c7e224420ab3f4be9dc}{Data\+File.\+S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}) Condicao do filtro S\+T\+O\+PS $<$= 3
+
+\begin{DoxyReturn}{Returns}
+Retorna rotas filtradas pela condicao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aecab2f33307d056fc39b715421705d62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aecab2f33307d056fc39b715421705d62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_aac5dfeee25bd54a9a4bbdb64d52acf9f}\label{classcontroller_1_1_rail_system_aac5dfeee25bd54a9a4bbdb64d52acf9f}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!filter\+By\+Stops2@{filter\+By\+Stops2}}
+\index{filter\+By\+Stops2@{filter\+By\+Stops2}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{filter\+By\+Stops2()}{filterByStops2()}}
+{\footnotesize\ttfamily static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} controller.\+Rail\+System.\+filter\+By\+Stops2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Esse filtro esta mapeado no arquivo de entrada com o index = 2(\hyperlink{classutilities_1_1_data_file_afdb877fcbb93d5bf2e6757f844c0a0e0}{Data\+File.\+S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}) Condicao do filtro S\+T\+O\+PS == 4
+
+\begin{DoxyReturn}{Returns}
+Retorna uma lista de rotas filtradas pela condicao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aac5dfeee25bd54a9a4bbdb64d52acf9f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aac5dfeee25bd54a9a4bbdb64d52acf9f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_aaa1ab4d489fd21a5e968723c2afd89b2}\label{classcontroller_1_1_rail_system_aaa1ab4d489fd21a5e968723c2afd89b2}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!init@{init}}
+\index{init@{init}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily static boolean controller.\+Rail\+System.\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Inicializa o sistema de rotas
+
+\begin{DoxyReturn}{Returns}
+Se a inicializacao ocorreu com sucesso retorna true 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aaa1ab4d489fd21a5e968723c2afd89b2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_aaa1ab4d489fd21a5e968723c2afd89b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcontroller_1_1_rail_system_a4eccf86f1b3525490c6d44b0522d746b}\label{classcontroller_1_1_rail_system_a4eccf86f1b3525490c6d44b0522d746b}} 
+\index{controller\+::\+Rail\+System@{controller\+::\+Rail\+System}!shortest\+Route@{shortest\+Route}}
+\index{shortest\+Route@{shortest\+Route}!controller\+::\+Rail\+System@{controller\+::\+Rail\+System}}
+\subsubsection{\texorpdfstring{shortest\+Route()}{shortestRoute()}}
+{\footnotesize\ttfamily static Map$<$String ,\hyperlink{classdomain_1_1_route}{Route}\mbox{[}$\,$\mbox{]}$>$ controller.\+Rail\+System.\+shortest\+Route (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mapeia todas as rotas mais curtas de todas as viagens
+
+\begin{DoxyReturn}{Returns}
+Retorna uma lista de rotas mais curtas para cada viagem/rota 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_a4eccf86f1b3525490c6d44b0522d746b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_rail_system_a4eccf86f1b3525490c6d44b0522d746b_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/workspace/\+Train\+Vagas/src/controller/\hyperlink{_rail_system_8java}{Rail\+System.\+java}\end{DoxyCompactItemize}

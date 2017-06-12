@@ -1,0 +1,88 @@
+\hypertarget{classdomain_1_1_shortest_route}{}\section{domain.\+Shortest\+Route Class Reference}
+\label{classdomain_1_1_shortest_route}\index{domain.\+Shortest\+Route@{domain.\+Shortest\+Route}}
+
+
+Collaboration diagram for domain.\+Shortest\+Route\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_shortest_route__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Map$<$ String,\hyperlink{classdomain_1_1_route}{Route}\mbox{[}$\,$\mbox{]}$>$ \hyperlink{classdomain_1_1_shortest_route_a7ae44089b0d36ae422c678294425ed3f}{get\+Shortest\+Route} ()
+\item 
+\hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_shortest_route_a6378b797c933b6ebb2a48447761e02f7}{get\+Shortest\+Route} (\hyperlink{classdomain_1_1_route}{Route} trip)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdomain_1_1_graph}{Graph} \hyperlink{classdomain_1_1_shortest_route_a3cc017eeb29651f61b8eac7f0e23c682}{graph} = \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{Graph.\+create}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdomain_1_1_shortest_route_a7ae44089b0d36ae422c678294425ed3f}\label{classdomain_1_1_shortest_route_a7ae44089b0d36ae422c678294425ed3f}} 
+\index{domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}!get\+Shortest\+Route@{get\+Shortest\+Route}}
+\index{get\+Shortest\+Route@{get\+Shortest\+Route}!domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}}
+\subsubsection{\texorpdfstring{get\+Shortest\+Route()}{getShortestRoute()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Map$<$String ,\hyperlink{classdomain_1_1_route}{Route}\mbox{[}$\,$\mbox{]}$>$ domain.\+Shortest\+Route.\+get\+Shortest\+Route (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna uma lista das rotas mais curtas para cada viagem(rota) com entrada no arquivo input.\+txt
+
+\begin{DoxyReturn}{Returns}
+Lista de rotas mais curtas para cada viagem(rota) 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_shortest_route_a7ae44089b0d36ae422c678294425ed3f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_shortest_route_a7ae44089b0d36ae422c678294425ed3f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_shortest_route_a6378b797c933b6ebb2a48447761e02f7}\label{classdomain_1_1_shortest_route_a6378b797c933b6ebb2a48447761e02f7}} 
+\index{domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}!get\+Shortest\+Route@{get\+Shortest\+Route}}
+\index{get\+Shortest\+Route@{get\+Shortest\+Route}!domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}}
+\subsubsection{\texorpdfstring{get\+Shortest\+Route()}{getShortestRoute()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} domain.\+Shortest\+Route.\+get\+Shortest\+Route (\begin{DoxyParamCaption}\item[{\hyperlink{classdomain_1_1_route}{Route}}]{trip }\end{DoxyParamCaption})}
+
+Retorna uma lista das rotas mais curtas para uma viagem(rota)
+
+
+\begin{DoxyParams}{Parameters}
+{\em trip} & key de uma viagem(rota) que se deseja solicitar as rotas mais curtas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de rotas mais curtas 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_shortest_route_a6378b797c933b6ebb2a48447761e02f7_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdomain_1_1_shortest_route_a3cc017eeb29651f61b8eac7f0e23c682}\label{classdomain_1_1_shortest_route_a3cc017eeb29651f61b8eac7f0e23c682}} 
+\index{domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}!graph@{graph}}
+\index{graph@{graph}!domain\+::\+Shortest\+Route@{domain\+::\+Shortest\+Route}}
+\subsubsection{\texorpdfstring{graph}{graph}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_graph}{Graph} domain.\+Shortest\+Route.\+graph = \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{Graph.\+create}()\hspace{0.3cm}{\ttfamily [package]}}
+
+Rotas disponiveis no sistema 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/workspace/\+Train\+Vagas/src/domain/\hyperlink{_shortest_route_8java}{Shortest\+Route.\+java}\end{DoxyCompactItemize}

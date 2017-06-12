@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_route_test">
+<title>test::RouteTest class Reference</title>
+<para>Inheritance diagram for test::RouteTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_route_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::RouteTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_route_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Route route</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a8769c6c9998f3d9ac16d3b9eba8852cb">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a7f25c69e5d23bf66b691c488755dbfc9">testRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a52c3fdb8ab37480b0fecd7e9b6fa0f06">testRouteStringDouble</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1acb2270c45a7b7d0b4abf79c096f06db1">testRouteString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a7dacc77eab109864a56245621d7ec28e">testGetStartingTown</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1af066f97eb9ba4d89e2c3305da7160a2b">testGetDistance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a11cca1688e58c33a830799aabf3c193f">testGetNumberOfNodes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1af6681e248b53ea74f2b330d454b41798">testGetNumberOfStops</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1acaeec305d3d55c8bc78e90799de36632">testGetIdOfStop</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1ac1ec1e0a746b686d4e3c2ced9224b8d7">testSetRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1ab08c94959831d50b6350a697b55ca248">testSetId</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a8e80ff61aae3fce1b14e526b8b09ca40">testSetTotalDistanceString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1aba13b05ba3749e36d917203df57c0c4f">testSetTotalDistanceDouble</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1ae5d74fb8dedad7c5ee9d7aa1f6e181ca">testGetId</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a892b2d6667e4202a15746f84018d2efb">testGetEndingTown</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a524fd5dc10dd4319d44b20607e99c0a2">testIsAvailable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a800664a2fbe5f7c806114a4a9e576529">testSetAvailable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a8c73ab3b303390810fb4bae9740c68a5">testFormatKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_route_test_1a9555de1650cfe22c915c127f07c900ab">testTestCondition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_route_test_1a8769c6c9998f3d9ac16d3b9eba8852cb">
+                <title>void test.RouteTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a7f25c69e5d23bf66b691c488755dbfc9">
+                <title>void test.RouteTest.testRoute ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a52c3fdb8ab37480b0fecd7e9b6fa0f06">
+                <title>void test.RouteTest.testRouteStringDouble ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1acb2270c45a7b7d0b4abf79c096f06db1">
+                <title>void test.RouteTest.testRouteString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a7dacc77eab109864a56245621d7ec28e">
+                <title>void test.RouteTest.testGetStartingTown ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1af066f97eb9ba4d89e2c3305da7160a2b">
+                <title>void test.RouteTest.testGetDistance ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a11cca1688e58c33a830799aabf3c193f">
+                <title>void test.RouteTest.testGetNumberOfNodes ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1af6681e248b53ea74f2b330d454b41798">
+                <title>void test.RouteTest.testGetNumberOfStops ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1acaeec305d3d55c8bc78e90799de36632">
+                <title>void test.RouteTest.testGetIdOfStop ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1ac1ec1e0a746b686d4e3c2ced9224b8d7">
+                <title>void test.RouteTest.testSetRoute ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1ab08c94959831d50b6350a697b55ca248">
+                <title>void test.RouteTest.testSetId ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a8e80ff61aae3fce1b14e526b8b09ca40">
+                <title>void test.RouteTest.testSetTotalDistanceString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1aba13b05ba3749e36d917203df57c0c4f">
+                <title>void test.RouteTest.testSetTotalDistanceDouble ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1ae5d74fb8dedad7c5ee9d7aa1f6e181ca">
+                <title>void test.RouteTest.testGetId ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a892b2d6667e4202a15746f84018d2efb">
+                <title>void test.RouteTest.testGetEndingTown ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a524fd5dc10dd4319d44b20607e99c0a2">
+                <title>void test.RouteTest.testIsAvailable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a800664a2fbe5f7c806114a4a9e576529">
+                <title>void test.RouteTest.testSetAvailable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a8c73ab3b303390810fb4bae9740c68a5">
+                <title>void test.RouteTest.testFormatKey ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_route_test_1a9555de1650cfe22c915c127f07c900ab">
+                <title>void test.RouteTest.testTestCondition ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

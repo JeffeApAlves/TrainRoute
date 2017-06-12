@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_data_file_test">
+<title>test::DataFileTest class Reference</title>
+<para>Inheritance diagram for test::DataFileTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_data_file_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::DataFileTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_data_file_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1a0c4aa82f4822e250fa2ea1d238f25f87">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1aa7338ead543ecd8b09f2a0d5a93c3ee8">testOpen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1ad4b0d957eebabf51055d0e7c8be254e7">testReadListString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1ab61a29d98e2d1b08099008e0a5c53b63">testReadListStringInt</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1afceb03fbe887feb7c9c51074ea1c41d8">testReadConditionStringInt</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1a839677c199693ab93375ec09dfbb3407">testReadDoubleStringInt</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1aa614885277711640980410c5faa5b609">testReadIntegerStringInt</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_data_file_test_1ad4298b1da8ab563a46e4adfdc3d15720">testReadLiteralOperandStringInt</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_data_file_test_1a0c4aa82f4822e250fa2ea1d238f25f87">
+                <title>void test.DataFileTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1aa7338ead543ecd8b09f2a0d5a93c3ee8">
+                <title>void test.DataFileTest.testOpen ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1ad4b0d957eebabf51055d0e7c8be254e7">
+                <title>void test.DataFileTest.testReadListString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1ab61a29d98e2d1b08099008e0a5c53b63">
+                <title>void test.DataFileTest.testReadListStringInt ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1afceb03fbe887feb7c9c51074ea1c41d8">
+                <title>void test.DataFileTest.testReadConditionStringInt ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1a839677c199693ab93375ec09dfbb3407">
+                <title>void test.DataFileTest.testReadDoubleStringInt ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1aa614885277711640980410c5faa5b609">
+                <title>void test.DataFileTest.testReadIntegerStringInt ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_data_file_test_1ad4298b1da8ab563a46e4adfdc3d15720">
+                <title>void test.DataFileTest.testReadLiteralOperandStringInt ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

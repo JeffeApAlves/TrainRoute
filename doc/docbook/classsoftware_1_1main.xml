@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classsoftware_1_1main">
+<title>software::main class Reference</title>
+<para>Inheritance diagram for software::main</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classsoftware_1_1main__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for software::main</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classsoftware_1_1main__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classsoftware_1_1main_1ac0127d8d05cf1b1a55d045818ce34a68">main</link> (
+String [] args)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static boolean <link linkend="classsoftware_1_1main_1a704a81c9cf3d3fff3d223f49b9b98b67">startupSW</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classsoftware_1_1main_1a20702c213493bc103f21bea8d159f810">runSW</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classsoftware_1_1main_1a7ae92a61ad38d1c4bd6ba6be3ff49fa0">shutdownSW</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classsoftware_1_1main_1ac0127d8d05cf1b1a55d045818ce34a68">
+                <title>static void software.main.main (String[] args)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classsoftware_1_1main_1a704a81c9cf3d3fff3d223f49b9b98b67">
+                <title>static boolean software.main.startupSW ()</title> <emphasis></emphasis>
+                
+<para>Inicializacao do SW</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Retorna true se a inicializacao foi bem sucedida </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classsoftware_1_1main_1a20702c213493bc103f21bea8d159f810">
+                <title>static void software.main.runSW ()</title> <emphasis></emphasis>
+                
+<para>Execucao do SW </para>
+
+            </section>
+            <section xml:id="classsoftware_1_1main_1a7ae92a61ad38d1c4bd6ba6be3ff49fa0">
+                <title>static void software.main.shutdownSW ()</title> <emphasis></emphasis>
+                
+<para>Executa o shutdown do SW </para>
+
+            </section>
+</section>

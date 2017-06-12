@@ -1,0 +1,5 @@
+<map id="test.RouteTest.testRouteString" name="test.RouteTest.testRouteString">
+<area shape="rect" id="node2" href="$classdomain_1_1_route.html#a39e1f65aa6930a75d8b8edb73fb06f02" title="domain.Route.getDistance" alt="" coords="220,5,395,32"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a5a9ed7d2692549002ab7ae59a3b5b5d9" title="domain.Route.getKey" alt="" coords="234,56,381,83"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#addbf041cdbb4a24ff5f0b2a6fbce4c7d" title="domain.Route.isAvailable" alt="" coords="224,107,391,133"/>
+</map>

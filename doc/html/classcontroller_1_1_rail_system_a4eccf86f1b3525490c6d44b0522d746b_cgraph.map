@@ -1,0 +1,5 @@
+<map id="controller.RailSystem.shortestRoute" name="controller.RailSystem.shortestRoute">
+<area shape="rect" id="node2" href="$classdomain_1_1_shortest_route.html#a7ae44089b0d36ae422c678294425ed3f" title="domain.ShortestRoute.get\lShortestRoute" alt="" coords="251,23,424,65"/>
+<area shape="rect" id="node3" href="$classutilities_1_1_data_file.html#a68332bb2b70bafbaae007d952ba4264b" title="utilities.DataFile.readList" alt="" coords="472,5,637,32"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="472,56,637,83"/>
+</map>

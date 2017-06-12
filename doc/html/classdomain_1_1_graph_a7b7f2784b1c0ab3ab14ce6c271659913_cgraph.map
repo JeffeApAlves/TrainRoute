@@ -1,0 +1,12 @@
+<map id="domain.Graph.calculateDistance" name="domain.Graph.calculateDistance">
+<area shape="rect" id="node2" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="761,12,927,39"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_graph.html#ab5da77fcafda90e249b7c3c049ccc3ff" title="domain.Graph.isRouteAvailable" alt="" coords="264,88,467,115"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_graph.html#a3499aec1dfba7e73b34007cb4271e192" title="domain.Graph.getRoute" alt="" coords="535,37,693,64"/>
+<area shape="rect" id="node8" href="$classdomain_1_1_route.html#a26f7bfa398e907882925e09b197dabec" title="domain.Route.getNumberOf\lNodes" alt="" coords="274,139,457,181"/>
+<area shape="rect" id="node9" href="$classdomain_1_1_route.html#aec22d9627aa0a3afd7bf20a61a0f4695" title="domain.Route.getKeyOfStop" alt="" coords="272,205,459,232"/>
+<area shape="rect" id="node11" href="$classdomain_1_1_route.html#a39e1f65aa6930a75d8b8edb73fb06f02" title="domain.Route.getDistance" alt="" coords="278,256,453,283"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_graph.html#aa8ae0912dcbd41c932ab29815e85af36" title="domain.Graph.containsTown" alt="" coords="521,88,707,115"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_route.html#a63676b06b623621dbde9a06126bf4b5c" title="domain.Route.getStartingTown" alt="" coords="515,139,713,165"/>
+<area shape="rect" id="node7" href="$classdomain_1_1_route.html#a914f727c54adab3aa1a62f61c997dcdd" title="domain.Route.getEndingTown" alt="" coords="517,189,711,216"/>
+<area shape="rect" id="node10" href="$classdomain_1_1_route.html#a5a9ed7d2692549002ab7ae59a3b5b5d9" title="domain.Route.getKey" alt="" coords="541,240,687,267"/>
+</map>

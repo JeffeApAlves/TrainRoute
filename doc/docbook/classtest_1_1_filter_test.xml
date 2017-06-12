@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_filter_test">
+<title>test::FilterTest class Reference</title>
+<para>Inheritance diagram for test::FilterTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_filter_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::FilterTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_filter_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Filter filter</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_filter_test_1af76a634a6d91aad982f591ef07c21969">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_filter_test_1abd2f49938ef9663ecee1953d09bae933">testFilterBy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_filter_test_1af76a634a6d91aad982f591ef07c21969">
+                <title>void test.FilterTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_filter_test_1abd2f49938ef9663ecee1953d09bae933">
+                <title>void test.FilterTest.testFilterBy ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

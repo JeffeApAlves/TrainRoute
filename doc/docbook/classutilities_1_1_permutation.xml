@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classutilities_1_1_permutation">
+<title>utilities::Permutation class Reference</title>
+<para>Inheritance diagram for utilities::Permutation</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classutilities_1_1_permutation__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for utilities::Permutation</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classutilities_1_1_permutation__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String [] <link linkend="classutilities_1_1_permutation_1a99314b491e989a85b57855baeb499b70">getAllLists</link> (
+String [] elements, int lengthOfList)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classutilities_1_1_permutation_1a99314b491e989a85b57855baeb499b70">
+                <title>static String [] utilities.Permutation.getAllLists (String[] elements, int lengthOfList)</title> <emphasis></emphasis>
+                
+<para>Cria todas as possiveis combinacoes entre os elementos de uma lista</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>elements</entry>
+                                <entry>
+<para>Lista de elementos </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>lengthOfList</entry>
+                                <entry>
+<para>quantidade de elementos </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Lista com todas as combinacoes </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

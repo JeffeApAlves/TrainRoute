@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classdomain_1_1_shortest_route">
+<title>domain::ShortestRoute class Reference</title>
+<para>Inheritance diagram for domain::ShortestRoute</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_shortest_route__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for domain::ShortestRoute</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_shortest_route__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Graph graph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Map&lt; String,<link linkend="classdomain_1_1_route">Route</link>[]&gt; <link linkend="classdomain_1_1_shortest_route_1a7ae44089b0d36ae422c678294425ed3f">getShortestRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classdomain_1_1_shortest_route_1a6378b797c933b6ebb2a48447761e02f7">getShortestRoute</link> (
+<link linkend="classdomain_1_1_route">Route</link> trip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classdomain_1_1_shortest_route_1a7ae44089b0d36ae422c678294425ed3f">
+                <title>Map&lt;String ,Route[]&gt; domain.ShortestRoute.getShortestRoute ()</title> <emphasis></emphasis>
+                
+<para>Retorna uma lista das rotas mais curtas para cada trip com entrada no arquivo input.txt</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>lista de rotas </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_shortest_route_1a6378b797c933b6ebb2a48447761e02f7">
+                <title>Route [] domain.ShortestRoute.getShortestRoute (Route trip)</title> <emphasis></emphasis>
+                
+<para>Retorna uma lista das rotas mais curtas para uma viagem/rota</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>trip</entry>
+                                <entry>
+<para>Viagem/rota que se deseja solicitar as rotas mais curtas </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Lista de rotas </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

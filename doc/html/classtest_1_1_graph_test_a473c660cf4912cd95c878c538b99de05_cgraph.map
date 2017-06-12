@@ -1,0 +1,6 @@
+<map id="test.GraphTest.testAddTown" name="test.GraphTest.testAddTown">
+<area shape="rect" id="node2" href="$classdomain_1_1_graph.html#a93f040b758a5f920d195f2fbfdccc741" title="domain.Graph.addTown" alt="" coords="254,31,413,57"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_graph.html#aa8ae0912dcbd41c932ab29815e85af36" title="domain.Graph.containsTown" alt="" coords="240,81,427,108"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_town.html#a6a88af9728067dd135eea6df9591496b" title="domain.Town.formatKey" alt="" coords="475,5,636,32"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_town.html#a4d9996c44520ba3639163348b1c1d2ca" title="domain.Town.getKey" alt="" coords="484,56,627,83"/>
+</map>

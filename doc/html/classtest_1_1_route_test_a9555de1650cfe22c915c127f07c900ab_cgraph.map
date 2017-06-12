@@ -1,0 +1,10 @@
+<map id="test.RouteTest.testTestCondition" name="test.RouteTest.testTestCondition">
+<area shape="rect" id="node2" href="$classdomain_1_1_route.html#ac152ebbec9a46aee30cdd98c3a35a6d5" title="domain.Route.setRoute" alt="" coords="277,56,436,83"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_route.html#aa130fcfb95d38f93081a7f30438fb1e9" title="domain.Route.testCondition" alt="" coords="265,149,448,176"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a3b472fbb44362997723edf02014bc77f" title="domain.Route.setKey" alt="" coords="524,5,671,32"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_route.html#a33d5c5c64f0fdb4a0317ec0019bedc5a" title="domain.Route.setTotalDistance" alt="" coords="496,56,699,83"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="747,5,912,32"/>
+<area shape="rect" id="node7" href="$interfacetranslate_1_1_translate_message.html#ac31959ba666c507f8a95e889e8270461" title="translate.TranslateMessage.\lINCORRECT_PARAMETERS" alt="" coords="501,107,694,149"/>
+<area shape="rect" id="node8" href="$classdomain_1_1_route.html#a863264da3af911c200d94f53733e07b4" title="domain.Route.getNumberOf\lStops" alt="" coords="506,173,689,214"/>
+<area shape="rect" id="node9" href="$classdomain_1_1_route.html#a39e1f65aa6930a75d8b8edb73fb06f02" title="domain.Route.getDistance" alt="" coords="510,239,685,265"/>
+</map>

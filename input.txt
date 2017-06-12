@@ -1,0 +1,130 @@
+/***************************************************************************************************
+ *                                        Arquivo de entrada				                       *
+ ***************************************************************************************************/
+
+/** Mapa de estacoes
+ *
+ *  Diagrama esta baseado na descricao do teste. 
+ *  '*' Indica rotas de chegada na estacao
+ *  (D) Indica a distancia
+ * 
+ * 	   ------------(3)----------------- 
+ * 	   |                              |
+ * 	   |                              *	
+ * 	   | -(7)-[ A ]------(5)-------*[ B ]
+ * 	   | |      |                     |
+ * 	   | |     (5)                   (4)
+ * 	   | |      |                     |
+ * 	   | *      *                     *
+ * 	  [ E ]*--[ D ] -----(8)-------*[ C ]
+ * 	    *          *-----(8)-------   |
+ * 	    |                             |
+ * 	    ----------(2)------------------
+ *
+ * Mapeamento de todas as rotas disponiveis 
+ * O SW esta trabalhando dinamicamente, podendo ser adicionadas novas rotas
+ * Para numeros decimais usar '.'
+ * Separador por virgula
+ *
+ */
+ 
+graph.routes = A-B5;10, BC4;8, CD8;6, DC8;5, DE6;4, AD5;2, CE2;1, EB3;3, AE7;7
+
+
+/*****************************************************************************************************/
+
+/** Questoes:
+ *	1. The distance of the route A-B-C.
+ *	2. The distance of the route A-D.
+ *	3. The distance of the route A-D-C.
+ *	4. The distance of the route A-E-B-C-D.
+ *	5. The distance of the route A-E-D.
+ *
+ * Mapeamento das rotas para calculo da distancia
+ * O hifem e opcional
+ * Separador virgula
+ * Possibilidade de adiconar novas rotas
+ *
+ */
+	
+distance.routes	= A-B-C , A-D , A-D-C , A-E-B-C-D , A-E-D
+
+time.routes	= A-B-C , AD , BE
+
+/*****************************************************************************************************/
+
+/** Questoes:
+ *	6. The number of trips starting at C and ending at C with a maximum of 3 stops. In the sample
+ *	data below, there are two such trips: C-D-C (2 stops). and C-E-B-C (3 stops).
+ *
+ * Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao
+ * indicada em filtertrips[X].condition.
+ * Condicoes permitidas: <,>,<=,>=,==,!=
+ * Operandos permitidos STOPS,DISTANCE
+ * O hifem e opcional
+ * Rotas invalidas serao desconsideradas
+ * Importante: Separador por virgula
+ * Possibilidade de adiconar novos filtros,diferenciar atraves do index [X]
+ *
+ */
+ 	
+filtertrips[1].condition = STOPS <= 3
+filtertrips[1].routes	= C-D-C , C-E-B-C
+
+/*****************************************************************************************************/
+
+
+/** Questoes:
+ * 	7. The number of trips starting at A and ending at C with exactly 4 stops. In the sample data
+ *	below, there are three such trips: A to C (via B,C,D); A to C (via D,C,D); and A to C (via D,E,B). 
+ *
+ * Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao
+ * indicada em filtertrips[X].condition.
+ * Condicoes permitidas: <,>,<=,>=,==,!=
+ * Operandos permitidos STOPS,DISTANCE
+ * O hifem e opcional
+ * Rotas invalidas serao desconsideradas
+ * Separador por virgula
+ * Possibilidade de adiconar novos filtros,diferenciar atraves do index [X]
+ *
+ */
+ 	
+filtertrips[2].condition = STOPS==4
+filtertrips[2].routes	= A-B-C-D-C , A-D-C-D-C, A-D-E-B-C, AB
+
+/*****************************************************************************************************/
+
+/** Questoes:
+ *	8. The length of the shortest route (in terms of distance to travel) from A to C.
+ *	9. The length of the shortest route (in terms of distance to travel) from B to B.
+ *
+ * Encontra as opcoes de rotas menores(distancia) entre o ponto de partida e o de chegada
+ * Possibilidade de adiconar quantas viagens(rotas) necessarias.
+ * Rotas invalidas serao desconsideradas  
+ * O hifem e opcional
+ * Separador virgula
+ */
+ 
+shortestRouter.trip	= A-C , B-B
+
+/*****************************************************************************************************/
+
+/** Questoes:
+ *	10.The number of different routes from C to C with a distance of less than 30. In the sample
+ *	data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC.
+ *
+ * Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao
+ * indicada em filtertrips[X].condition.
+ * Condicoes permitidas: <,>,<=,>=,==,!=
+ * Operandos permitidos STOPS,DISTANCE
+ * O hifem e opcional
+ * Rotas invalidas serao desconsideradas
+ * Separador por virgula
+ * Possibilidade de adiconar novos filtros,diferenciar atraves do index [X]
+ *
+ */
+ 
+filtertrips[3].condition = DISTANCE < 30
+filtertrips[3].routes	 = CDC , CEBC , CEBCDC , CDCEBC , CDEBC , CEBCEBC , CEBCEBCEBC
+
+/*****************************************************************************************************/

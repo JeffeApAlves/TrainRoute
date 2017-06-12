@@ -1,0 +1,17 @@
+<map id="domain.Graph.addRoute" name="domain.Graph.addRoute">
+<area shape="rect" id="node2" href="$classdomain_1_1_graph.html#a356a31b6dba042cccb2a743caa07bfdf" title="domain.Graph.addRoute" alt="" coords="248,5,411,32"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_graph.html#ae98fbece4e39b0fb8979139f06b0a914" title="domain.Graph.loadGraphRoutes\lFromFile" alt="" coords="226,57,433,98"/>
+<area shape="rect" id="node8" href="$classtest_1_1_graph_test.html#a8979ac672a459b1549444d94b4e4b46f" title="test.GraphTest.testGetAll\lTowns" alt="" coords="244,122,415,163"/>
+<area shape="rect" id="node9" href="$classtest_1_1_graph_test.html#a3c859de54ad38354bbfe0a99f79ab817" title="test.GraphTest.testGetAll\lRoutes" alt="" coords="244,187,415,229"/>
+<area shape="rect" id="node10" href="$classtest_1_1_graph_test.html#a6ba6493ed4d053e9476f9e15744f4f11" title="test.GraphTest.testGetAll\lRoutePossible" alt="" coords="244,253,415,294"/>
+<area shape="rect" id="node11" href="$classtest_1_1_graph_test.html#a6e5d6e42cbf0773c9fde59fbb0e38056" title="test.GraphTest.testGetConnections" alt="" coords="216,319,443,345"/>
+<area shape="rect" id="node12" href="$classtest_1_1_graph_test.html#ab7eeb2aca803777eafaca3a6da72ab9e" title="test.GraphTest.testAddRoute" alt="" coords="234,369,425,396"/>
+<area shape="rect" id="node13" href="$classtest_1_1_graph_test.html#a44c05e3ce8e8f248813e7f7073b83b40" title="test.GraphTest.testGetRoute" alt="" coords="235,420,424,447"/>
+<area shape="rect" id="node14" href="$classtest_1_1_graph_test.html#af2355b40a0a4852b32d3d956ec244539" title="test.GraphTest.testContainsTown" alt="" coords="222,471,437,497"/>
+<area shape="rect" id="node15" href="$classtest_1_1_graph_test.html#a35b38c797fb3d3c1ffc0e3ebaf9c36b2" title="test.GraphTest.testIsRoute\lAvailable" alt="" coords="240,522,419,563"/>
+<area shape="rect" id="node16" href="$classtest_1_1_graph_test.html#a58d63fd09c3102ebb1e07b88fd588831" title="test.GraphTest.testcalculate\lDistance" alt="" coords="236,587,423,629"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_graph.html#a57ce4efd344c059a565f4bb104fdee64" title="domain.Graph.create" alt="" coords="518,35,661,61"/>
+<area shape="rect" id="node7" href="$classtest_1_1_graph_test.html#a7ad18b1ef2adc9632a7334f1ea1aa81a" title="test.GraphTest.testLoadGraph\lRoutesFromFile" alt="" coords="491,86,688,127"/>
+<area shape="rect" id="node5" href="$classtest_1_1_graph_test.html#a2e6d2327f0ae6fc3f3d5de35eebe31dd" title="test.GraphTest.setUp" alt="" coords="747,9,894,36"/>
+<area shape="rect" id="node6" href="$classtest_1_1_graph_test.html#a1424d27d4fc5a3dca08a058d4d49a53a" title="test.GraphTest.testGraph" alt="" coords="736,60,905,87"/>
+</map>

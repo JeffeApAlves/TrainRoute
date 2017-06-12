@@ -1,0 +1,20 @@
+/*******************************************************************************************************
+ *                     Arquivo de entrada exclusivo para execucao dos tests cases                      *
+ *******************************************************************************************************/
+
+############################################# IMPORTANTE!!! ############################################
+#                                                                                                      #
+#Este arquivo e para uso exclusivo dos tests cases o arquivo de entrada para o SW e o arquivo input.txt#
+#                                                                                                      #                 
+############################################# IMPORTANTE!!! ############################################
+
+
+graph.routes			= A-B5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
+distance.routes			= A-B-C , A-D , A-D-C , A-E-B-C-D , A-E-D
+filtertrips[1].condition= STOPS <= 3
+filtertrips[1].routes	= C-D-C , C-E-B-C
+filtertrips[2].condition= STOPS==4
+filtertrips[2].routes	= A-B-C-D-C , A-D-C-D-C, A-D-E-B-C, AB
+shortestRouter.trip		= A-C	 , B-B
+filtertrips[3].condition= DISTANCE < 30
+filtertrips[3].routes	= CDC , CEBC , CEBCDC , CDCEBC , CDEBC , CEBCEBC , CEBCEBCEBC 

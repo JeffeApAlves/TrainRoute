@@ -1,0 +1,26 @@
+<map id="domain.Town.formatKey" name="domain.Town.formatKey">
+<area shape="rect" id="node2" href="$classdomain_1_1_graph.html#a93f040b758a5f920d195f2fbfdccc741" title="domain.Graph.addTown" alt="" coords="232,395,391,421"/>
+<area shape="rect" id="node21" href="$classdomain_1_1_town.html#abc867cf10f6b9c2f7191317456071ce7" title="domain.Town.setKey" alt="" coords="240,496,383,523"/>
+<area shape="rect" id="node25" href="$classtest_1_1_town_test.html#aafaac696506ffac04363befb43bf7b23" title="test.TownTest.testFormatKey" alt="" coords="215,547,408,573"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_graph.html#a2ecd9722f3cbb7d97fda519101d249ed" title="domain.Graph.addRoute" alt="" coords="468,319,631,345"/>
+<area shape="rect" id="node19" href="$classtest_1_1_graph_test.html#a473c660cf4912cd95c878c538b99de05" title="test.GraphTest.testAddTown" alt="" coords="456,369,643,396"/>
+<area shape="rect" id="node20" href="$classtest_1_1_graph_test.html#a285eb6f04b41f2e1b255b387a2e88199" title="test.GraphTest.testclear" alt="" coords="468,420,631,447"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_graph.html#a356a31b6dba042cccb2a743caa07bfdf" title="domain.Graph.addRoute" alt="" coords="723,5,885,32"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_graph.html#ae98fbece4e39b0fb8979139f06b0a914" title="domain.Graph.loadGraphRoutes\lFromFile" alt="" coords="701,57,907,98"/>
+<area shape="rect" id="node10" href="$classtest_1_1_graph_test.html#a8979ac672a459b1549444d94b4e4b46f" title="test.GraphTest.testGetAll\lTowns" alt="" coords="719,122,889,163"/>
+<area shape="rect" id="node11" href="$classtest_1_1_graph_test.html#a3c859de54ad38354bbfe0a99f79ab817" title="test.GraphTest.testGetAll\lRoutes" alt="" coords="719,187,889,229"/>
+<area shape="rect" id="node12" href="$classtest_1_1_graph_test.html#a6ba6493ed4d053e9476f9e15744f4f11" title="test.GraphTest.testGetAll\lRoutePossible" alt="" coords="719,253,889,294"/>
+<area shape="rect" id="node13" href="$classtest_1_1_graph_test.html#a6e5d6e42cbf0773c9fde59fbb0e38056" title="test.GraphTest.testGetConnections" alt="" coords="691,319,917,345"/>
+<area shape="rect" id="node14" href="$classtest_1_1_graph_test.html#ab7eeb2aca803777eafaca3a6da72ab9e" title="test.GraphTest.testAddRoute" alt="" coords="709,369,899,396"/>
+<area shape="rect" id="node15" href="$classtest_1_1_graph_test.html#a44c05e3ce8e8f248813e7f7073b83b40" title="test.GraphTest.testGetRoute" alt="" coords="709,420,899,447"/>
+<area shape="rect" id="node16" href="$classtest_1_1_graph_test.html#af2355b40a0a4852b32d3d956ec244539" title="test.GraphTest.testContainsTown" alt="" coords="697,471,911,497"/>
+<area shape="rect" id="node17" href="$classtest_1_1_graph_test.html#a35b38c797fb3d3c1ffc0e3ebaf9c36b2" title="test.GraphTest.testIsRoute\lAvailable" alt="" coords="715,522,893,563"/>
+<area shape="rect" id="node18" href="$classtest_1_1_graph_test.html#a58d63fd09c3102ebb1e07b88fd588831" title="test.GraphTest.testcalculate\lDistance" alt="" coords="711,587,897,629"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_graph.html#a57ce4efd344c059a565f4bb104fdee64" title="domain.Graph.create" alt="" coords="993,35,1135,61"/>
+<area shape="rect" id="node9" href="$classtest_1_1_graph_test.html#a7ad18b1ef2adc9632a7334f1ea1aa81a" title="test.GraphTest.testLoadGraph\lRoutesFromFile" alt="" coords="965,86,1163,127"/>
+<area shape="rect" id="node7" href="$classtest_1_1_graph_test.html#a2e6d2327f0ae6fc3f3d5de35eebe31dd" title="test.GraphTest.setUp" alt="" coords="1222,9,1369,36"/>
+<area shape="rect" id="node8" href="$classtest_1_1_graph_test.html#a1424d27d4fc5a3dca08a058d4d49a53a" title="test.GraphTest.testGraph" alt="" coords="1211,60,1380,87"/>
+<area shape="rect" id="node22" href="$classdomain_1_1_town.html#aa94ed3b3a105cf53298454563e2302a8" title="domain.Town.Town" alt="" coords="483,471,615,497"/>
+<area shape="rect" id="node23" href="$classtest_1_1_town_test.html#afb0700534b21a2cab187cf97aee0915b" title="test.TownTest.testGetId" alt="" coords="469,521,629,548"/>
+<area shape="rect" id="node24" href="$classtest_1_1_town_test.html#a9c9b33be480e6929f77a8402a72825ff" title="test.TownTest.testSetId" alt="" coords="470,572,629,599"/>
+</map>

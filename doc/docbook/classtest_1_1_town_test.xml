@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_town_test">
+<title>test::TownTest class Reference</title>
+<para>Inheritance diagram for test::TownTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_town_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::TownTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_town_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Town town</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_town_test_1a9818b619a3ef6d7d7c03f19d48456eaf">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_town_test_1a7cededa2b2d7c866897875e8b29f6c0d">testTown</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_town_test_1afb0700534b21a2cab187cf97aee0915b">testGetId</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_town_test_1a9c9b33be480e6929f77a8402a72825ff">testSetId</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_town_test_1aafaac696506ffac04363befb43bf7b23">testFormatKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_town_test_1a9818b619a3ef6d7d7c03f19d48456eaf">
+                <title>void test.TownTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_town_test_1a7cededa2b2d7c866897875e8b29f6c0d">
+                <title>void test.TownTest.testTown ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_town_test_1afb0700534b21a2cab187cf97aee0915b">
+                <title>void test.TownTest.testGetId ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_town_test_1a9c9b33be480e6929f77a8402a72825ff">
+                <title>void test.TownTest.testSetId ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_town_test_1aafaac696506ffac04363befb43bf7b23">
+                <title>void test.TownTest.testFormatKey ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

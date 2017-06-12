@@ -1,0 +1,7 @@
+<map id="test.RouteTest.testGetId" name="test.RouteTest.testGetId">
+<area shape="rect" id="node2" href="$classdomain_1_1_route.html#a3b472fbb44362997723edf02014bc77f" title="domain.Route.setKey" alt="" coords="452,5,599,32"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a5a9ed7d2692549002ab7ae59a3b5b5d9" title="domain.Route.getKey" alt="" coords="223,31,370,57"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_route.html#ac152ebbec9a46aee30cdd98c3a35a6d5" title="domain.Route.setRoute" alt="" coords="217,81,376,108"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="675,5,840,32"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_route.html#a33d5c5c64f0fdb4a0317ec0019bedc5a" title="domain.Route.setTotalDistance" alt="" coords="424,81,627,108"/>
+</map>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_graph_test">
+<title>test::GraphTest class Reference</title>
+<para>Inheritance diagram for test::GraphTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_graph_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::GraphTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_graph_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Graph graph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a2e6d2327f0ae6fc3f3d5de35eebe31dd">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a1424d27d4fc5a3dca08a058d4d49a53a">testGraph</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a8979ac672a459b1549444d94b4e4b46f">testGetAllTowns</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a3c859de54ad38354bbfe0a99f79ab817">testGetAllRoutes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a6ba6493ed4d053e9476f9e15744f4f11">testGetAllRoutePossible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a6e5d6e42cbf0773c9fde59fbb0e38056">testGetConnections</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1ab7eeb2aca803777eafaca3a6da72ab9e">testAddRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a473c660cf4912cd95c878c538b99de05">testAddTown</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a44c05e3ce8e8f248813e7f7073b83b40">testGetRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a7ad18b1ef2adc9632a7334f1ea1aa81a">testLoadGraphRoutesFromFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1af2355b40a0a4852b32d3d956ec244539">testContainsTown</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a35b38c797fb3d3c1ffc0e3ebaf9c36b2">testIsRouteAvailable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a58d63fd09c3102ebb1e07b88fd588831">testcalculateDistance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_graph_test_1a285eb6f04b41f2e1b255b387a2e88199">testclear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_graph_test_1a2e6d2327f0ae6fc3f3d5de35eebe31dd">
+                <title>void test.GraphTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a1424d27d4fc5a3dca08a058d4d49a53a">
+                <title>void test.GraphTest.testGraph ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a8979ac672a459b1549444d94b4e4b46f">
+                <title>void test.GraphTest.testGetAllTowns ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a3c859de54ad38354bbfe0a99f79ab817">
+                <title>void test.GraphTest.testGetAllRoutes ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a6ba6493ed4d053e9476f9e15744f4f11">
+                <title>void test.GraphTest.testGetAllRoutePossible ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a6e5d6e42cbf0773c9fde59fbb0e38056">
+                <title>void test.GraphTest.testGetConnections ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1ab7eeb2aca803777eafaca3a6da72ab9e">
+                <title>void test.GraphTest.testAddRoute ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a473c660cf4912cd95c878c538b99de05">
+                <title>void test.GraphTest.testAddTown ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a44c05e3ce8e8f248813e7f7073b83b40">
+                <title>void test.GraphTest.testGetRoute ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a7ad18b1ef2adc9632a7334f1ea1aa81a">
+                <title>void test.GraphTest.testLoadGraphRoutesFromFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1af2355b40a0a4852b32d3d956ec244539">
+                <title>void test.GraphTest.testContainsTown ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a35b38c797fb3d3c1ffc0e3ebaf9c36b2">
+                <title>void test.GraphTest.testIsRouteAvailable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a58d63fd09c3102ebb1e07b88fd588831">
+                <title>void test.GraphTest.testcalculateDistance ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_graph_test_1a285eb6f04b41f2e1b255b387a2e88199">
+                <title>void test.GraphTest.testclear ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

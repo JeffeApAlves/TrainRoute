@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_rail_system_test">
+<title>test::RailSystemTest class Reference</title>
+<para>Inheritance diagram for test::RailSystemTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_rail_system_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::RailSystemTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_rail_system_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_rail_system_test_1ab85936c259158b670fc1926bbe54fd2d">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_rail_system_test_1a788f13f636cb5c25db513fff9fe8668b">testFilterByStops1</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_rail_system_test_1a2a1e9411ccf36a39296c00a201f17f37">testFilterByStops2</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_rail_system_test_1a5d1486af4e81c48f82549f1a57eff766">testCalculateDistance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_rail_system_test_1a01b95869ac2414fa487a6540436d7563">testShortestRoute</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_rail_system_test_1ab85936c259158b670fc1926bbe54fd2d">
+                <title>void test.RailSystemTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_rail_system_test_1a788f13f636cb5c25db513fff9fe8668b">
+                <title>void test.RailSystemTest.testFilterByStops1 ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_rail_system_test_1a2a1e9411ccf36a39296c00a201f17f37">
+                <title>void test.RailSystemTest.testFilterByStops2 ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_rail_system_test_1a5d1486af4e81c48f82549f1a57eff766">
+                <title>void test.RailSystemTest.testCalculateDistance ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_rail_system_test_1a01b95869ac2414fa487a6540436d7563">
+                <title>void test.RailSystemTest.testShortestRoute ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

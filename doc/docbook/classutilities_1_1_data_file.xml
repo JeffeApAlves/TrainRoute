@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classutilities_1_1_data_file">
+<title>utilities::DataFile class Reference</title>
+<para>Inheritance diagram for utilities::DataFile</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classutilities_1_1_data_file__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for utilities::DataFile</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classutilities_1_1_data_file__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final int DISTANCE_CONDITION</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final int STOP1_CONDITION</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final int STOP2_CONDITION</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATH_FILE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FILE_TESTS_CASES</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATTERN_OPERAND</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATTERN_DOUBLE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATTERN_INTEGER</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATTERN_CONDITION</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String SEPARATOR</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String file_name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Properties prop</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static InputStream input</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classutilities_1_1_data_file_1a03d4af9888db5dfd5031fd3ead4964bf">setFileName</link> (
+String file)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="classutilities_1_1_data_file_1ae5e95d9019f786414f891e2afc966381">getFileName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static boolean <link linkend="classutilities_1_1_data_file_1aa53fb6327a320f458fd8314751e241c9">open</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classutilities_1_1_data_file_1a4f113f0a5f50902308585d1f11988ec7">close</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String [] <link linkend="classutilities_1_1_data_file_1a68332bb2b70bafbaae007d952ba4264b">readList</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String [] <link linkend="classutilities_1_1_data_file_1a3cc1c92c9a0e6636cfac281f445adcd2">readList</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="classutilities_1_1_data_file_1a33acb694b44396a574b5488ad0dbad2f">readCondition</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double <link linkend="classutilities_1_1_data_file_1ac82eaa7386ac4a53bda4132bbeb2c45f">readDouble</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static int <link linkend="classutilities_1_1_data_file_1a35eab7f599a67becf4ffbe284cde076b">readInteger</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="classutilities_1_1_data_file_1aa37b857d75e3409c1766989e823bc117">readLiteralOperand</link> (
+<link linkend="enumutilities_1_1_file_property">FileProperty</link> property, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static boolean <link linkend="classutilities_1_1_data_file_1a28beb850c6cc447aa7757e9f3967224c">checkFileExist</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <simplesect>
+                <title>final String utilities.DataFile.PATH_FILE</title>                
+<para>Nome do Arquivo de entrada </para>
+
+                <para>Definition at line 43 of file DataFile.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>DataFile.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <section xml:id="classutilities_1_1_data_file_1a03d4af9888db5dfd5031fd3ead4964bf">
+                <title>static void utilities.DataFile.setFileName (String file)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1ae5e95d9019f786414f891e2afc966381">
+                <title>static String utilities.DataFile.getFileName ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1aa53fb6327a320f458fd8314751e241c9">
+                <title>static boolean utilities.DataFile.open ()</title> <emphasis></emphasis>
+                
+<para>Abre o arquivo de entrada <formalpara><title>Returns: </title>
+
+<para>Se o arquivo foi aberto com sucesso retorna true </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a4f113f0a5f50902308585d1f11988ec7">
+                <title>static void utilities.DataFile.close ()</title> <emphasis></emphasis>
+                
+<para>Fecha o arquivo de entrada </para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a68332bb2b70bafbaae007d952ba4264b">
+                <title>static String [] utilities.DataFile.readList (FileProperty property)</title> <emphasis></emphasis>
+                
+<para>Le uma lista de string do arquivo de entrada 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>identificador da propriedade a ser lida </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o array de string lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a3cc1c92c9a0e6636cfac281f445adcd2">
+                <title>static String [] utilities.DataFile.readList (FileProperty property, int index)</title> <emphasis></emphasis>
+                
+<para>Le um array de string do arquivo de entrada 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>propriedade onde o array de string sera buscado </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>index</entry>
+                                <entry>
+<para>da propriedade a ser buscada ex: propriedade[index].condition </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o array de string lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a33acb694b44396a574b5488ad0dbad2f">
+                <title>static String utilities.DataFile.readCondition (FileProperty property, int index)</title> <emphasis></emphasis>
+                
+<para>Le uma condicao do arquivo de entrada 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>propriedade onde a condicao sera buscado </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>index</entry>
+                                <entry>
+<para>da propriedade a ser buscada ex: propriedade[index].condition </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna a condicao literal lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1ac82eaa7386ac4a53bda4132bbeb2c45f">
+                <title>static double utilities.DataFile.readDouble (FileProperty property, int index)</title> <emphasis></emphasis>
+                
+<para>Le um double do arquivo de entrada 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>propriedade onde o double sera buscado </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>index</entry>
+                                <entry>
+<para>identifica qual propriedade dentro do array que existe no arquivo </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o double lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a35eab7f599a67becf4ffbe284cde076b">
+                <title>static int utilities.DataFile.readInteger (FileProperty property, int index)</title> <emphasis></emphasis>
+                
+<para>Le um interiro do arquivo de entrada 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>propriedade onde o inteiro sera buscado </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>index</entry>
+                                <entry>
+<para>identifica qual propriedade dentro do array que existe no arquivo </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o inteiro lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1aa37b857d75e3409c1766989e823bc117">
+                <title>static String utilities.DataFile.readLiteralOperand (FileProperty property, int index)</title> <emphasis></emphasis>
+                
+<para>Le um operando na forma literal do arquivo de entrada</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>property</entry>
+                                <entry>
+<para>propriedade a ser lida </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o operando, na forma literal, lido do arquivo </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>index</entry>
+                                <entry>
+<para>identifica qual propriedade dentro do array que existe no arquivo </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>retorna o operando, na forma literal, lido do arquivo </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classutilities_1_1_data_file_1a28beb850c6cc447aa7757e9f3967224c">
+                <title>static boolean utilities.DataFile.checkFileExist ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

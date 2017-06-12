@@ -1,0 +1,5 @@
+<map id="domain.Route.testCondition" name="domain.Route.testCondition">
+<area shape="rect" id="node2" href="$interfacetranslate_1_1_translate_message.html#ac31959ba666c507f8a95e889e8270461" title="translate.TranslateMessage.\lINCORRECT_PARAMETERS" alt="" coords="236,5,429,47"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a863264da3af911c200d94f53733e07b4" title="domain.Route.getNumberOf\lStops" alt="" coords="241,71,424,112"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a39e1f65aa6930a75d8b8edb73fb06f02" title="domain.Route.getDistance" alt="" coords="245,137,420,163"/>
+</map>

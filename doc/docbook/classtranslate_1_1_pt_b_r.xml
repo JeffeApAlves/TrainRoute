@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtranslate_1_1_pt_b_r">
+<title>translate::PtBR class Reference</title>
+<para>Inheritance diagram for translate::PtBR</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtranslate_1_1_pt_b_r__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for translate::PtBR</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtranslate_1_1_pt_b_r__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String TOW_NO_EXIST</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String ROUTE_NO_AVAILABLE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String INCORRECT_PARAMETERS</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FILE_NOT_FOUND</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PROPERTY_NOT_FOUND</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classtranslate_1_1_pt_b_r_1aa32cbf8602c41b8c6d61f19bc6c167dc">TOW_NO_EXIST</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classtranslate_1_1_pt_b_r_1a218e01c1590aa220f2c260639080cca2">ROUTE_NO_AVAILABLE</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classtranslate_1_1_pt_b_r_1adaf7225439d23bc30ffd45644c9142b8">INCORRECT_PARAMETERS</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classtranslate_1_1_pt_b_r_1a85f5cfc4ae5d12f192f3e513c7666455">FILE_NOT_FOUND</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classtranslate_1_1_pt_b_r_1aa9cef0ea9eb36d51a17532a6c216e6bd">PROPERTY_NOT_FOUND</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtranslate_1_1_pt_b_r_1aa32cbf8602c41b8c6d61f19bc6c167dc">
+                <title>String translate.PtBR.TOW_NO_EXIST ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtranslate_1_1_pt_b_r_1a218e01c1590aa220f2c260639080cca2">
+                <title>String translate.PtBR.ROUTE_NO_AVAILABLE ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtranslate_1_1_pt_b_r_1adaf7225439d23bc30ffd45644c9142b8">
+                <title>String translate.PtBR.INCORRECT_PARAMETERS ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtranslate_1_1_pt_b_r_1a85f5cfc4ae5d12f192f3e513c7666455">
+                <title>String translate.PtBR.FILE_NOT_FOUND ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtranslate_1_1_pt_b_r_1aa9cef0ea9eb36d51a17532a6c216e6bd">
+                <title>String translate.PtBR.PROPERTY_NOT_FOUND ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

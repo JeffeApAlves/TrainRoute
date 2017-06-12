@@ -1,0 +1,98 @@
+\hypertarget{classdomain_1_1_calculate_distance}{}\section{domain.\+Calculate\+Distance Class Reference}
+\label{classdomain_1_1_calculate_distance}\index{domain.\+Calculate\+Distance@{domain.\+Calculate\+Distance}}
+
+
+Collaboration diagram for domain.\+Calculate\+Distance\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_calculate_distance__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_calculate_distance_a188113ff0f6a119f4addd523b5e06a9c}{calculate\+All} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_calculate_distance_ad08ace3a0aa30e9ec6c99e8826630ad3}{calculate} (String\mbox{[}$\,$\mbox{]} trips)
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classdomain_1_1_graph}{Graph} \hyperlink{classdomain_1_1_calculate_distance_aa7288f0798e8e530b5fd8c228a7b028c}{graph} = \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{Graph.\+create}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdomain_1_1_calculate_distance_ad08ace3a0aa30e9ec6c99e8826630ad3}\label{classdomain_1_1_calculate_distance_ad08ace3a0aa30e9ec6c99e8826630ad3}} 
+\index{domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}!calculate@{calculate}}
+\index{calculate@{calculate}!domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily static \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} domain.\+Calculate\+Distance.\+calculate (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{trips }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calcula a distancia de uma lista de rotas(viagens)
+
+
+\begin{DoxyParams}{Parameters}
+{\em trips} & lista de key das rotas(viagens) para o calculo da distancia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Rotas com suas respectivas distancias calculadas 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_calculate_distance_ad08ace3a0aa30e9ec6c99e8826630ad3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_calculate_distance_ad08ace3a0aa30e9ec6c99e8826630ad3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_calculate_distance_a188113ff0f6a119f4addd523b5e06a9c}\label{classdomain_1_1_calculate_distance_a188113ff0f6a119f4addd523b5e06a9c}} 
+\index{domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}!calculate\+All@{calculate\+All}}
+\index{calculate\+All@{calculate\+All}!domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}}
+\subsubsection{\texorpdfstring{calculate\+All()}{calculateAll()}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_route}{Route} \mbox{[}$\,$\mbox{]} domain.\+Calculate\+Distance.\+calculate\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Baseada na lista de rotas contida no arquivo \textquotesingle{}input.\+txt\textquotesingle{}, na proprieda \textquotesingle{}distance.\+routes\textquotesingle{}, calcula a distancia de cada uma. Rotas nao possiveis serao setada como nao existente atraves da chamada do metodo set\+Availabe(false) e o valor da distancia sera 0.\+0
+
+\begin{DoxyReturn}{Returns}
+Retorna uma lista de rotas com sua respectiva distancia calculada e com a indicacao se e uma rota possivel 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_calculate_distance_a188113ff0f6a119f4addd523b5e06a9c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_calculate_distance_a188113ff0f6a119f4addd523b5e06a9c_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdomain_1_1_calculate_distance_aa7288f0798e8e530b5fd8c228a7b028c}\label{classdomain_1_1_calculate_distance_aa7288f0798e8e530b5fd8c228a7b028c}} 
+\index{domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}!graph@{graph}}
+\index{graph@{graph}!domain\+::\+Calculate\+Distance@{domain\+::\+Calculate\+Distance}}
+\subsubsection{\texorpdfstring{graph}{graph}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_graph}{Graph} domain.\+Calculate\+Distance.\+graph = \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{Graph.\+create}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+Rotas disponiveis no sistema 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/workspace/\+Train\+Vagas/src/domain/\hyperlink{_calculate_distance_8java}{Calculate\+Distance.\+java}\end{DoxyCompactItemize}

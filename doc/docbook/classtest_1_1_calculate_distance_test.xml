@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classtest_1_1_calculate_distance_test">
+<title>test::CalculateDistanceTest class Reference</title>
+<para>Inheritance diagram for test::CalculateDistanceTest</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_calculate_distance_test__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for test::CalculateDistanceTest</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classtest_1_1_calculate_distance_test__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CalculateDistance cd</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_calculate_distance_test_1a6af11430659ffdfbf1f30b96b68bf642">setUp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_calculate_distance_test_1ad6642d43b502c0bf9bd3876fc3303d14">testCalculateAll</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classtest_1_1_calculate_distance_test_1ae21407ac9f926798d08a69dfdbb6fcbe">testCalculate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classtest_1_1_calculate_distance_test_1a6af11430659ffdfbf1f30b96b68bf642">
+                <title>void test.CalculateDistanceTest.setUp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_calculate_distance_test_1ad6642d43b502c0bf9bd3876fc3303d14">
+                <title>void test.CalculateDistanceTest.testCalculateAll ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classtest_1_1_calculate_distance_test_1ae21407ac9f926798d08a69dfdbb6fcbe">
+                <title>void test.CalculateDistanceTest.testCalculate ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

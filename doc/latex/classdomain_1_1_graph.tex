@@ -1,0 +1,453 @@
+\hypertarget{classdomain_1_1_graph}{}\section{domain.\+Graph Class Reference}
+\label{classdomain_1_1_graph}\index{domain.\+Graph@{domain.\+Graph}}
+
+
+Collaboration diagram for domain.\+Graph\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdomain_1_1_graph_ab310780b6719b7b94e8eea0a0603f6c1}{clear} ()
+\item 
+String \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_graph_a3789a71ab36974dce8c6c6aac41007f3}{get\+All\+Towns} ()
+\item 
+String \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_graph_aa91cc429a4ea1d2c3341baea617e4028}{get\+All\+Routes} ()
+\item 
+String \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_graph_a3ceedf597c66f500579a0e302c32062b}{get\+All\+Route\+Possible} (\hyperlink{classdomain_1_1_route}{Route} trip)
+\item 
+String \mbox{[}$\,$\mbox{]} \hyperlink{classdomain_1_1_graph_adab0f0e6ae7af913998f537aa0fe62f1}{get\+Connections} (String key\+\_\+town)
+\item 
+void \hyperlink{classdomain_1_1_graph_a2ecd9722f3cbb7d97fda519101d249ed}{add\+Route} (String key\+\_\+route)
+\item 
+void \hyperlink{classdomain_1_1_graph_a356a31b6dba042cccb2a743caa07bfdf}{add\+Route} (String\mbox{[}$\,$\mbox{]}routes)
+\item 
+void \hyperlink{classdomain_1_1_graph_a93f040b758a5f920d195f2fbfdccc741}{add\+Town} (String key\+\_\+town)
+\item 
+\hyperlink{classdomain_1_1_route}{Route} \hyperlink{classdomain_1_1_graph_a3499aec1dfba7e73b34007cb4271e192}{get\+Route} (String key\+\_\+route)
+\item 
+void \hyperlink{classdomain_1_1_graph_ae98fbece4e39b0fb8979139f06b0a914}{load\+Graph\+Routes\+From\+File} ()
+\item 
+boolean \hyperlink{classdomain_1_1_graph_aa8ae0912dcbd41c932ab29815e85af36}{contains\+Town} (String key\+\_\+town)
+\item 
+boolean \hyperlink{classdomain_1_1_graph_ab5da77fcafda90e249b7c3c049ccc3ff}{is\+Route\+Available} (String route)
+\item 
+double \hyperlink{classdomain_1_1_graph_a7b7f2784b1c0ab3ab14ce6c271659913}{calculate\+Distance} (String trip)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static synchronized \hyperlink{classdomain_1_1_graph}{Graph} \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{create} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classdomain_1_1_graph}{Graph} \hyperlink{classdomain_1_1_graph_a50ba37beee6b306d2d1044b83d2fff3b}{graph} = null
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdomain_1_1_graph_a656a81cf9b9638f21e9d582f397b7a06}{Graph} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Map$<$ String, \hyperlink{classdomain_1_1_route}{Route} $>$ \hyperlink{classdomain_1_1_graph_a68332cc928e386e174d90ef23190dc7a}{map\+Routes} = null
+\item 
+Map$<$ String, \hyperlink{classdomain_1_1_town}{Town} $>$ \hyperlink{classdomain_1_1_graph_a4fcf559fd3e3579b189ca0c96cf52318}{map\+Towns} = null
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classdomain_1_1_graph_a656a81cf9b9638f21e9d582f397b7a06}\label{classdomain_1_1_graph_a656a81cf9b9638f21e9d582f397b7a06}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!Graph@{Graph}}
+\index{Graph@{Graph}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{Graph()}{Graph()}}
+{\footnotesize\ttfamily domain.\+Graph.\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Construtor privado. Para instanciar o objeto sera utilizado o metodo \hyperlink{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}{create()} Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a656a81cf9b9638f21e9d582f397b7a06_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdomain_1_1_graph_a2ecd9722f3cbb7d97fda519101d249ed}\label{classdomain_1_1_graph_a2ecd9722f3cbb7d97fda519101d249ed}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!add\+Route@{add\+Route}}
+\index{add\+Route@{add\+Route}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{add\+Route()}{addRoute()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void domain.\+Graph.\+add\+Route (\begin{DoxyParamCaption}\item[{String}]{key\+\_\+route }\end{DoxyParamCaption})}
+
+Cria e armazena no containner uma rota com o key indicado por key\+\_\+route
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Chave utilizada no map \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a2ecd9722f3cbb7d97fda519101d249ed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a2ecd9722f3cbb7d97fda519101d249ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a356a31b6dba042cccb2a743caa07bfdf}\label{classdomain_1_1_graph_a356a31b6dba042cccb2a743caa07bfdf}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!add\+Route@{add\+Route}}
+\index{add\+Route@{add\+Route}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{add\+Route()}{addRoute()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void domain.\+Graph.\+add\+Route (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{routes }\end{DoxyParamCaption})}
+
+Cria e armazena no containner uma lista de rotas
+
+
+\begin{DoxyParams}{Parameters}
+{\em routes} & Lista dos keys para criacao das rotas \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a356a31b6dba042cccb2a743caa07bfdf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a93f040b758a5f920d195f2fbfdccc741}\label{classdomain_1_1_graph_a93f040b758a5f920d195f2fbfdccc741}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!add\+Town@{add\+Town}}
+\index{add\+Town@{add\+Town}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{add\+Town()}{addTown()}}
+{\footnotesize\ttfamily void domain.\+Graph.\+add\+Town (\begin{DoxyParamCaption}\item[{String}]{key\+\_\+town }\end{DoxyParamCaption})}
+
+Cria e armazena no containner uma cidade identificada por key\+\_\+town
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Chave utilizada no map \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a93f040b758a5f920d195f2fbfdccc741_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a93f040b758a5f920d195f2fbfdccc741_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a7b7f2784b1c0ab3ab14ce6c271659913}\label{classdomain_1_1_graph_a7b7f2784b1c0ab3ab14ce6c271659913}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!calculate\+Distance@{calculate\+Distance}}
+\index{calculate\+Distance@{calculate\+Distance}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{calculate\+Distance()}{calculateDistance()}}
+{\footnotesize\ttfamily double domain.\+Graph.\+calculate\+Distance (\begin{DoxyParamCaption}\item[{String}]{trip }\end{DoxyParamCaption})}
+
+Calcula a distancia total de uma rota(viagem)
+
+
+\begin{DoxyParams}{Parameters}
+{\em route} & Key da rota(viagem) que se deseja calcular a distancia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Valor da distancia. Retornara 0 se a rota nao for possivel 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a7b7f2784b1c0ab3ab14ce6c271659913_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a7b7f2784b1c0ab3ab14ce6c271659913_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_ab310780b6719b7b94e8eea0a0603f6c1}\label{classdomain_1_1_graph_ab310780b6719b7b94e8eea0a0603f6c1}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!clear@{clear}}
+\index{clear@{clear}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void domain.\+Graph.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Exclui todos as rotas e casas dos containners Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_ab310780b6719b7b94e8eea0a0603f6c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_aa8ae0912dcbd41c932ab29815e85af36}\label{classdomain_1_1_graph_aa8ae0912dcbd41c932ab29815e85af36}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!contains\+Town@{contains\+Town}}
+\index{contains\+Town@{contains\+Town}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{contains\+Town()}{containsTown()}}
+{\footnotesize\ttfamily boolean domain.\+Graph.\+contains\+Town (\begin{DoxyParamCaption}\item[{String}]{key\+\_\+town }\end{DoxyParamCaption})}
+
+Verifica se a cidade existe e se a referencia do objeto no containner e valida
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+town} & ke da chave para ser verficada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna true se a cidade existe e com referencia valida 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_aa8ae0912dcbd41c932ab29815e85af36_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}\label{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!create@{create}}
+\index{create@{create}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily static synchronized \hyperlink{classdomain_1_1_graph}{Graph} domain.\+Graph.\+create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Metodo construtor para manter um Singleton de \hyperlink{classdomain_1_1_graph}{Graph}.
+
+Padrao Singleton \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a57ce4efd344c059a565f4bb104fdee64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a3ceedf597c66f500579a0e302c32062b}\label{classdomain_1_1_graph_a3ceedf597c66f500579a0e302c32062b}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!get\+All\+Route\+Possible@{get\+All\+Route\+Possible}}
+\index{get\+All\+Route\+Possible@{get\+All\+Route\+Possible}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{get\+All\+Route\+Possible()}{getAllRoutePossible()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} domain.\+Graph.\+get\+All\+Route\+Possible (\begin{DoxyParamCaption}\item[{\hyperlink{classdomain_1_1_route}{Route}}]{trip }\end{DoxyParamCaption})}
+
+Retorna todas as possiveis rotas para uma viagem
+
+
+\begin{DoxyParams}{Parameters}
+{\em trip} & E a rota da viagem contendo a cidade de destino e origem da viagem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna todas as possiveis rotas para a viagem 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a3ceedf597c66f500579a0e302c32062b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a3ceedf597c66f500579a0e302c32062b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_aa91cc429a4ea1d2c3341baea617e4028}\label{classdomain_1_1_graph_aa91cc429a4ea1d2c3341baea617e4028}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!get\+All\+Routes@{get\+All\+Routes}}
+\index{get\+All\+Routes@{get\+All\+Routes}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{get\+All\+Routes()}{getAllRoutes()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} domain.\+Graph.\+get\+All\+Routes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna a lista dos keys de todas as rotas disponiveis
+
+\begin{DoxyReturn}{Returns}
+Lsita de key das rotas 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_aa91cc429a4ea1d2c3341baea617e4028_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a3789a71ab36974dce8c6c6aac41007f3}\label{classdomain_1_1_graph_a3789a71ab36974dce8c6c6aac41007f3}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!get\+All\+Towns@{get\+All\+Towns}}
+\index{get\+All\+Towns@{get\+All\+Towns}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{get\+All\+Towns()}{getAllTowns()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} domain.\+Graph.\+get\+All\+Towns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna a lista dos keys de todas as cidades disponiveis
+
+\begin{DoxyReturn}{Returns}
+Lista de keys das cidades 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a3789a71ab36974dce8c6c6aac41007f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_adab0f0e6ae7af913998f537aa0fe62f1}\label{classdomain_1_1_graph_adab0f0e6ae7af913998f537aa0fe62f1}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!get\+Connections@{get\+Connections}}
+\index{get\+Connections@{get\+Connections}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{get\+Connections()}{getConnections()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} domain.\+Graph.\+get\+Connections (\begin{DoxyParamCaption}\item[{String}]{key\+\_\+town }\end{DoxyParamCaption})}
+
+Retorna as conexoes disponiveis para uma determinada cidade
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+town} & Key da cidade que se deseja listar as conexoes existentes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista das conexoes existentes para a cidade. Caso rotas ou a cidade nao exista retornara null 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_adab0f0e6ae7af913998f537aa0fe62f1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_adab0f0e6ae7af913998f537aa0fe62f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_a3499aec1dfba7e73b34007cb4271e192}\label{classdomain_1_1_graph_a3499aec1dfba7e73b34007cb4271e192}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!get\+Route@{get\+Route}}
+\index{get\+Route@{get\+Route}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{get\+Route()}{getRoute()}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_route}{Route} domain.\+Graph.\+get\+Route (\begin{DoxyParamCaption}\item[{String}]{key\+\_\+route }\end{DoxyParamCaption})}
+
+Retorna rota indicado por key\+\_\+route
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+route} & Key da rota que se deseja retornar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a rota correspondente ao key\+\_\+route. Se a rota nao existir retorna null. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a3499aec1dfba7e73b34007cb4271e192_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_a3499aec1dfba7e73b34007cb4271e192_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_ab5da77fcafda90e249b7c3c049ccc3ff}\label{classdomain_1_1_graph_ab5da77fcafda90e249b7c3c049ccc3ff}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!is\+Route\+Available@{is\+Route\+Available}}
+\index{is\+Route\+Available@{is\+Route\+Available}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{is\+Route\+Available()}{isRouteAvailable()}}
+{\footnotesize\ttfamily boolean domain.\+Graph.\+is\+Route\+Available (\begin{DoxyParamCaption}\item[{String}]{route }\end{DoxyParamCaption})}
+
+Verifica se a rota e valida e disponivel
+
+
+\begin{DoxyParams}{Parameters}
+{\em route} & Key da rota a ser verificado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna true se a rota for possivel 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_ab5da77fcafda90e249b7c3c049ccc3ff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_ab5da77fcafda90e249b7c3c049ccc3ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classdomain_1_1_graph_ae98fbece4e39b0fb8979139f06b0a914}\label{classdomain_1_1_graph_ae98fbece4e39b0fb8979139f06b0a914}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!load\+Graph\+Routes\+From\+File@{load\+Graph\+Routes\+From\+File}}
+\index{load\+Graph\+Routes\+From\+File@{load\+Graph\+Routes\+From\+File}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{load\+Graph\+Routes\+From\+File()}{loadGraphRoutesFromFile()}}
+{\footnotesize\ttfamily void domain.\+Graph.\+load\+Graph\+Routes\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Carrega as rotas do mapa contidas no arquivo de entrada \char`\"{}input.\+txt na propriedade \char`\"{}graph.\+routes"
+
+\begin{DoxySeeAlso}{See also}
+input.\+txt 
+\end{DoxySeeAlso}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_ae98fbece4e39b0fb8979139f06b0a914_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdomain_1_1_graph_ae98fbece4e39b0fb8979139f06b0a914_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdomain_1_1_graph_a50ba37beee6b306d2d1044b83d2fff3b}\label{classdomain_1_1_graph_a50ba37beee6b306d2d1044b83d2fff3b}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!graph@{graph}}
+\index{graph@{graph}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{graph}{graph}}
+{\footnotesize\ttfamily \hyperlink{classdomain_1_1_graph}{Graph} domain.\+Graph.\+graph = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+Referencia do Singleton \mbox{\Hypertarget{classdomain_1_1_graph_a68332cc928e386e174d90ef23190dc7a}\label{classdomain_1_1_graph_a68332cc928e386e174d90ef23190dc7a}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!map\+Routes@{map\+Routes}}
+\index{map\+Routes@{map\+Routes}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{map\+Routes}{mapRoutes}}
+{\footnotesize\ttfamily Map$<$String , \hyperlink{classdomain_1_1_route}{Route}$>$ domain.\+Graph.\+map\+Routes = null\hspace{0.3cm}{\ttfamily [private]}}
+
+Containner de Rotas disponiveis Formato do key String ex\+: \textquotesingle{}AB\textquotesingle{} \mbox{\Hypertarget{classdomain_1_1_graph_a4fcf559fd3e3579b189ca0c96cf52318}\label{classdomain_1_1_graph_a4fcf559fd3e3579b189ca0c96cf52318}} 
+\index{domain\+::\+Graph@{domain\+::\+Graph}!map\+Towns@{map\+Towns}}
+\index{map\+Towns@{map\+Towns}!domain\+::\+Graph@{domain\+::\+Graph}}
+\subsubsection{\texorpdfstring{map\+Towns}{mapTowns}}
+{\footnotesize\ttfamily Map$<$String , \hyperlink{classdomain_1_1_town}{Town}$>$ domain.\+Graph.\+map\+Towns = null\hspace{0.3cm}{\ttfamily [private]}}
+
+Container de cidades Formato do key String ex\+: \textquotesingle{}A\textquotesingle{} 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/workspace/\+Train\+Vagas/src/domain/\hyperlink{_graph_8java}{Graph.\+java}\end{DoxyCompactItemize}

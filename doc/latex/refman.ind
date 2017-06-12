@@ -1,0 +1,715 @@
+\begin{theindex}
+
+  \item {add\+Route}
+    \subitem {domain\+::\+Graph}, \hyperpage{42, 43}
+  \item {add\+Town}
+    \subitem {domain\+::\+Graph}, \hyperpage{44}
+  \item {available}
+    \subitem {domain\+::\+Route}, \hyperpage{87}
+
+  \indexspace
+
+  \item {calculate}
+    \subitem {domain\+::\+Calculate\+Distance}, \hyperpage{12}
+  \item {calculate\+All}
+    \subitem {domain\+::\+Calculate\+Distance}, \hyperpage{12}
+  \item {calculate\+Distance}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{68}
+    \subitem {domain\+::\+Graph}, \hyperpage{45}
+  \item {cd}
+    \subitem {test\+::\+Calculate\+Distance\+Test}, \hyperpage{15}
+  \item {check\+File\+Exist}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{17}
+  \item {clear}
+    \subitem {domain\+::\+Graph}, \hyperpage{46}
+  \item {close}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{17}
+  \item {contains\+Town}
+    \subitem {domain\+::\+Graph}, \hyperpage{46}
+  \item {controller}, \hyperpage{9}
+  \item {controller.\+Rail\+System}, \hyperpage{68}
+  \item {controller\+::\+Rail\+System}
+    \subitem {calculate\+Distance}, \hyperpage{68}
+    \subitem {de\+Init}, \hyperpage{68}
+    \subitem {filter\+By\+Distance}, \hyperpage{69}
+    \subitem {filter\+By\+Stops1}, \hyperpage{69}
+    \subitem {filter\+By\+Stops2}, \hyperpage{70}
+    \subitem {init}, \hyperpage{71}
+    \subitem {shortest\+Route}, \hyperpage{72}
+  \item {create}
+    \subitem {domain\+::\+Graph}, \hyperpage{47}
+
+  \indexspace
+
+  \item {D\+:/workspace/\+Train\+Vagas/src/controller/\+Rail\+System.\+java}, 
+		\hyperpage{111}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Calculate\+Distance.\+java}, 
+		\hyperpage{112}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Filter.\+java}, 
+		\hyperpage{112}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Graph.\+java}, 
+		\hyperpage{113}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Route.\+java}, 
+		\hyperpage{114}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Shortest\+Route.\+java}, 
+		\hyperpage{114}
+  \item {D\+:/workspace/\+Train\+Vagas/src/domain/\+Town.\+java}, 
+		\hyperpage{115}
+  \item {D\+:/workspace/\+Train\+Vagas/src/frontend/\+Display.\+java}, 
+		\hyperpage{116}
+  \item {D\+:/workspace/\+Train\+Vagas/src/software/main.\+java}, 
+		\hyperpage{116}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Calculate\+Distance\+Test.\+java}, 
+		\hyperpage{117}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Data\+File\+Test.\+java}, 
+		\hyperpage{117}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Filter\+Test.\+java}, 
+		\hyperpage{118}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Graph\+Test.\+java}, 
+		\hyperpage{118}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Permutation\+Test.\+java}, 
+		\hyperpage{118}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Rail\+System\+Test.\+java}, 
+		\hyperpage{118}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Route\+Test.\+java}, 
+		\hyperpage{119}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Shortest\+Route\+Test.\+java}, 
+		\hyperpage{119}
+  \item {D\+:/workspace/\+Train\+Vagas/src/test/\+Town\+Test.\+java}, 
+		\hyperpage{119}
+  \item {D\+:/workspace/\+Train\+Vagas/src/translate/\+Pt\+B\+R.\+java}, 
+		\hyperpage{119}
+  \item {D\+:/workspace/\+Train\+Vagas/src/translate/\+Translate.\+java}, 
+		\hyperpage{120}
+  \item {D\+:/workspace/\+Train\+Vagas/src/translate/\+Translate\+Message.\+java}, 
+		\hyperpage{121}
+  \item {D\+:/workspace/\+Train\+Vagas/src/utilities/\+Data\+File.\+java}, 
+		\hyperpage{121}
+  \item {D\+:/workspace/\+Train\+Vagas/src/utilities/\+File\+Property.\+java}, 
+		\hyperpage{121}
+  \item {D\+:/workspace/\+Train\+Vagas/src/utilities/\+Permutation.\+java}, 
+		\hyperpage{122}
+  \item {D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{24}
+  \item {D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+R\+O\+U\+T\+ES}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{36}
+  \item {de\+Init}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{68}
+  \item {domain}, \hyperpage{9}
+  \item {domain.\+Calculate\+Distance}, \hyperpage{11}
+  \item {domain.\+Filter}, \hyperpage{37}
+  \item {domain.\+Graph}, \hyperpage{41}
+  \item {domain.\+Route}, \hyperpage{75}
+  \item {domain.\+Shortest\+Route}, \hyperpage{96}
+  \item {domain.\+Town}, \hyperpage{100}
+  \item {domain\+::\+Calculate\+Distance}
+    \subitem {calculate}, \hyperpage{12}
+    \subitem {calculate\+All}, \hyperpage{12}
+    \subitem {graph}, \hyperpage{13}
+  \item {domain\+::\+Filter}
+    \subitem {filter\+By}, \hyperpage{38}
+    \subitem {graph}, \hyperpage{39}
+  \item {domain\+::\+Graph}
+    \subitem {add\+Route}, \hyperpage{42, 43}
+    \subitem {add\+Town}, \hyperpage{44}
+    \subitem {calculate\+Distance}, \hyperpage{45}
+    \subitem {clear}, \hyperpage{46}
+    \subitem {contains\+Town}, \hyperpage{46}
+    \subitem {create}, \hyperpage{47}
+    \subitem {get\+All\+Route\+Possible}, \hyperpage{47}
+    \subitem {get\+All\+Routes}, \hyperpage{48}
+    \subitem {get\+All\+Towns}, \hyperpage{49}
+    \subitem {get\+Connections}, \hyperpage{49}
+    \subitem {get\+Route}, \hyperpage{50}
+    \subitem {Graph}, \hyperpage{42}
+    \subitem {graph}, \hyperpage{53}
+    \subitem {is\+Route\+Available}, \hyperpage{51}
+    \subitem {load\+Graph\+Routes\+From\+File}, \hyperpage{52}
+    \subitem {map\+Routes}, \hyperpage{53}
+    \subitem {map\+Towns}, \hyperpage{53}
+  \item {domain\+::\+Route}
+    \subitem {available}, \hyperpage{87}
+    \subitem {format\+Key}, \hyperpage{77}
+    \subitem {get\+Distance}, \hyperpage{78}
+    \subitem {get\+Ending\+Town}, \hyperpage{79}
+    \subitem {get\+Key}, \hyperpage{79}
+    \subitem {get\+Key\+Of\+Stop}, \hyperpage{79}
+    \subitem {get\+Number\+Of\+Nodes}, \hyperpage{80}
+    \subitem {get\+Number\+Of\+Stops}, \hyperpage{81}
+    \subitem {get\+Starting\+Town}, \hyperpage{81}
+    \subitem {is\+Available}, \hyperpage{82}
+    \subitem {key}, \hyperpage{87}
+    \subitem {M\+I\+N\+I\+M\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+\+O\+F\+\_\+\+ID}, 
+		\hyperpage{87}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}, 
+		\hyperpage{88}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+ID}, \hyperpage{88}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+N\+O\+\_\+\+D\+U\+P\+L\+I\+C\+A\+TE}, 
+		\hyperpage{88}
+    \subitem {Route}, \hyperpage{76, 77}
+    \subitem {set\+Available}, \hyperpage{82}
+    \subitem {set\+Key}, \hyperpage{83}
+    \subitem {set\+Route}, \hyperpage{84}
+    \subitem {set\+Total\+Distance}, \hyperpage{85, 86}
+    \subitem {test\+Condition}, \hyperpage{86}
+    \subitem {total\+Distance}, \hyperpage{88}
+  \item {domain\+::\+Shortest\+Route}
+    \subitem {get\+Shortest\+Route}, \hyperpage{96, 97}
+    \subitem {graph}, \hyperpage{98}
+  \item {domain\+::\+Town}
+    \subitem {format\+Key}, \hyperpage{101}
+    \subitem {get\+Key}, \hyperpage{102}
+    \subitem {key}, \hyperpage{103}
+    \subitem {M\+I\+N\+I\+M\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+\+O\+F\+\_\+\+ID}, 
+		\hyperpage{103}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+ID}, \hyperpage{103}
+    \subitem {set\+Key}, \hyperpage{102}
+    \subitem {Town}, \hyperpage{101}
+
+  \indexspace
+
+  \item {F\+I\+L\+E\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}
+    \subitem {translate\+::\+Pt\+BR}, \hyperpage{66, 67}
+    \subitem {translate\+::\+Translate\+Message}, \hyperpage{107}
+  \item {F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {F\+I\+L\+T\+E\+R\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{36}
+  \item {F\+I\+L\+T\+E\+R\+\_\+\+R\+O\+U\+T\+ES}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{36}
+  \item {F\+O\+R\+M\+A\+T\+\_\+\+C\+O\+L1}
+    \subitem {frontend\+::\+Display}, \hyperpage{33}
+  \item {F\+O\+R\+M\+A\+T\+\_\+\+D\+E\+C\+I\+M\+AL}
+    \subitem {frontend\+::\+Display}, \hyperpage{33}
+  \item {F\+O\+R\+M\+A\+T\+\_\+\+D\+O\+U\+B\+LE}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+  \item {F\+O\+R\+M\+A\+T\+\_\+\+R\+O\+U\+TE}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+  \item {F\+O\+R\+M\+A\+T\+\_\+\+S\+T\+R\+I\+NG}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+  \item {file\+\_\+name}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {File\+Property}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{35}
+  \item {filter}
+    \subitem {test\+::\+Filter\+Test}, \hyperpage{40}
+  \item {filter\+By}
+    \subitem {domain\+::\+Filter}, \hyperpage{38}
+  \item {filter\+By\+Distance}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{69}
+  \item {filter\+By\+Stops1}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{69}
+  \item {filter\+By\+Stops2}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{70}
+  \item {format\+Key}
+    \subitem {domain\+::\+Route}, \hyperpage{77}
+    \subitem {domain\+::\+Town}, \hyperpage{101}
+  \item {frontend}, \hyperpage{9}
+  \item {frontend.\+Display}, \hyperpage{29}
+  \item {frontend\+::\+Display}
+    \subitem {F\+O\+R\+M\+A\+T\+\_\+\+C\+O\+L1}, \hyperpage{33}
+    \subitem {F\+O\+R\+M\+A\+T\+\_\+\+D\+E\+C\+I\+M\+AL}, 
+		\hyperpage{33}
+    \subitem {F\+O\+R\+M\+A\+T\+\_\+\+D\+O\+U\+B\+LE}, \hyperpage{34}
+    \subitem {F\+O\+R\+M\+A\+T\+\_\+\+R\+O\+U\+TE}, \hyperpage{34}
+    \subitem {F\+O\+R\+M\+A\+T\+\_\+\+S\+T\+R\+I\+NG}, \hyperpage{34}
+    \subitem {index\+\_\+line}, \hyperpage{34}
+    \subitem {N\+E\+W\+\_\+\+L\+I\+NE}, \hyperpage{34}
+    \subitem {print\+Head}, \hyperpage{30}
+    \subitem {print\+Line}, \hyperpage{30}
+    \subitem {print\+Result\+Calculate\+Distance}, \hyperpage{30}
+    \subitem {print\+Result\+Filter}, \hyperpage{31}
+    \subitem {print\+Result\+Shortest}, \hyperpage{32}
+    \subitem {S\+E\+P\+A\+R\+A\+T\+OR}, \hyperpage{34}
+    \subitem {show\+All\+Results}, \hyperpage{33}
+
+  \indexspace
+
+  \item {G\+R\+A\+P\+H\+\_\+\+R\+O\+U\+T\+ES}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{36}
+  \item {get\+All\+Lists}
+    \subitem {utilities\+::\+Permutation}, \hyperpage{63}
+  \item {get\+All\+Route\+Possible}
+    \subitem {domain\+::\+Graph}, \hyperpage{47}
+  \item {get\+All\+Routes}
+    \subitem {domain\+::\+Graph}, \hyperpage{48}
+  \item {get\+All\+Towns}
+    \subitem {domain\+::\+Graph}, \hyperpage{49}
+  \item {get\+Connections}
+    \subitem {domain\+::\+Graph}, \hyperpage{49}
+  \item {get\+Distance}
+    \subitem {domain\+::\+Route}, \hyperpage{78}
+  \item {get\+Ending\+Town}
+    \subitem {domain\+::\+Route}, \hyperpage{79}
+  \item {get\+File\+Name}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{17}
+  \item {get\+Key}
+    \subitem {domain\+::\+Route}, \hyperpage{79}
+    \subitem {domain\+::\+Town}, \hyperpage{102}
+  \item {get\+Key\+Of\+Stop}
+    \subitem {domain\+::\+Route}, \hyperpage{79}
+  \item {get\+Name}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{35}
+  \item {get\+Number\+Of\+Nodes}
+    \subitem {domain\+::\+Route}, \hyperpage{80}
+  \item {get\+Number\+Of\+Stops}
+    \subitem {domain\+::\+Route}, \hyperpage{81}
+  \item {get\+Route}
+    \subitem {domain\+::\+Graph}, \hyperpage{50}
+  \item {get\+Shortest\+Route}
+    \subitem {domain\+::\+Shortest\+Route}, \hyperpage{96, 97}
+  \item {get\+Starting\+Town}
+    \subitem {domain\+::\+Route}, \hyperpage{81}
+  \item {Graph}
+    \subitem {domain\+::\+Graph}, \hyperpage{42}
+  \item {graph}
+    \subitem {domain\+::\+Calculate\+Distance}, \hyperpage{13}
+    \subitem {domain\+::\+Filter}, \hyperpage{39}
+    \subitem {domain\+::\+Graph}, \hyperpage{53}
+    \subitem {domain\+::\+Shortest\+Route}, \hyperpage{98}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{60}
+
+  \indexspace
+
+  \item {I\+N\+C\+O\+R\+R\+E\+C\+T\+\_\+\+P\+A\+R\+A\+M\+E\+T\+E\+RS}
+    \subitem {translate\+::\+Pt\+BR}, \hyperpage{66, 67}
+    \subitem {translate\+::\+Translate\+Message}, \hyperpage{108}
+  \item {index\+\_\+line}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+  \item {init}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{71}
+  \item {input}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {is\+Available}
+    \subitem {domain\+::\+Route}, \hyperpage{82}
+  \item {is\+Route\+Available}
+    \subitem {domain\+::\+Graph}, \hyperpage{51}
+
+  \indexspace
+
+  \item {key}
+    \subitem {domain\+::\+Route}, \hyperpage{87}
+    \subitem {domain\+::\+Town}, \hyperpage{103}
+
+  \indexspace
+
+  \item {load\+Graph\+Routes\+From\+File}
+    \subitem {domain\+::\+Graph}, \hyperpage{52}
+
+  \indexspace
+
+  \item {M\+E\+S\+S\+A\+GE}
+    \subitem {translate\+::\+Translate}, \hyperpage{107}
+  \item {M\+I\+N\+I\+M\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+\+O\+F\+\_\+\+ID}
+    \subitem {domain\+::\+Route}, \hyperpage{87}
+    \subitem {domain\+::\+Town}, \hyperpage{103}
+  \item {main}
+    \subitem {software\+::main}, \hyperpage{60}
+  \item {map\+Routes}
+    \subitem {domain\+::\+Graph}, \hyperpage{53}
+  \item {map\+Towns}
+    \subitem {domain\+::\+Graph}, \hyperpage{53}
+
+  \indexspace
+
+  \item {N\+E\+W\+\_\+\+L\+I\+NE}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+  \item {name}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{36}
+
+  \indexspace
+
+  \item {open}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{18}
+
+  \indexspace
+
+  \item {P\+A\+T\+H\+\_\+\+F\+I\+LE}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}
+    \subitem {domain\+::\+Route}, \hyperpage{88}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+ID}
+    \subitem {domain\+::\+Route}, \hyperpage{88}
+    \subitem {domain\+::\+Town}, \hyperpage{103}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{25}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+N\+O\+\_\+\+D\+U\+P\+L\+I\+C\+A\+TE}
+    \subitem {domain\+::\+Route}, \hyperpage{88}
+  \item {P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{26}
+  \item {P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}
+    \subitem {translate\+::\+Pt\+BR}, \hyperpage{66, 67}
+    \subitem {translate\+::\+Translate\+Message}, \hyperpage{108}
+  \item {print\+Head}
+    \subitem {frontend\+::\+Display}, \hyperpage{30}
+  \item {print\+Line}
+    \subitem {frontend\+::\+Display}, \hyperpage{30}
+  \item {print\+Result\+Calculate\+Distance}
+    \subitem {frontend\+::\+Display}, \hyperpage{30}
+  \item {print\+Result\+Filter}
+    \subitem {frontend\+::\+Display}, \hyperpage{31}
+  \item {print\+Result\+Shortest}
+    \subitem {frontend\+::\+Display}, \hyperpage{32}
+  \item {prop}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{26}
+
+  \indexspace
+
+  \item {R\+O\+U\+T\+E\+\_\+\+N\+O\+\_\+\+A\+V\+A\+I\+L\+A\+B\+LE}
+    \subitem {translate\+::\+Pt\+BR}, \hyperpage{66, 67}
+    \subitem {translate\+::\+Translate\+Message}, \hyperpage{108}
+  \item {read\+Condition}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{18}
+  \item {read\+Double}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{19}
+  \item {read\+Integer}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{20}
+  \item {read\+List}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{21, 22}
+  \item {read\+Literal\+Operand}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{23}
+  \item {Route}
+    \subitem {domain\+::\+Route}, \hyperpage{76, 77}
+  \item {route}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{96}
+  \item {run\+SW}
+    \subitem {software\+::main}, \hyperpage{61}
+
+  \indexspace
+
+  \item {S\+E\+P\+A\+R\+A\+T\+OR}
+    \subitem {frontend\+::\+Display}, \hyperpage{34}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{26}
+  \item {S\+H\+O\+R\+T\+E\+S\+T\+\_\+\+R\+O\+U\+T\+ES}
+    \subitem {utilities\+::\+File\+Property}, \hyperpage{37}
+  \item {S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{26}
+  \item {S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{26}
+  \item {set\+Available}
+    \subitem {domain\+::\+Route}, \hyperpage{82}
+  \item {set\+File\+Name}
+    \subitem {utilities\+::\+Data\+File}, \hyperpage{23}
+  \item {set\+Key}
+    \subitem {domain\+::\+Route}, \hyperpage{83}
+    \subitem {domain\+::\+Town}, \hyperpage{102}
+  \item {set\+Route}
+    \subitem {domain\+::\+Route}, \hyperpage{84}
+  \item {set\+Total\+Distance}
+    \subitem {domain\+::\+Route}, \hyperpage{85, 86}
+  \item {set\+Up}
+    \subitem {test\+::\+Calculate\+Distance\+Test}, \hyperpage{14}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{27}
+    \subitem {test\+::\+Filter\+Test}, \hyperpage{40}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{54}
+    \subitem {test\+::\+Permutation\+Test}, \hyperpage{64}
+    \subitem {test\+::\+Rail\+System\+Test}, \hyperpage{73}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{89}
+    \subitem {test\+::\+Shortest\+Route\+Test}, \hyperpage{99}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{104}
+  \item {shortest\+Route}
+    \subitem {controller\+::\+Rail\+System}, \hyperpage{72}
+  \item {show\+All\+Results}
+    \subitem {frontend\+::\+Display}, \hyperpage{33}
+  \item {shutdown\+SW}
+    \subitem {software\+::main}, \hyperpage{61}
+  \item {software}, \hyperpage{9}
+  \item {software.\+main}, \hyperpage{60}
+  \item {software\+::main}
+    \subitem {main}, \hyperpage{60}
+    \subitem {run\+SW}, \hyperpage{61}
+    \subitem {shutdown\+SW}, \hyperpage{61}
+    \subitem {startup\+SW}, \hyperpage{62}
+  \item {sr}
+    \subitem {test\+::\+Shortest\+Route\+Test}, \hyperpage{100}
+  \item {startup\+SW}
+    \subitem {software\+::main}, \hyperpage{62}
+
+  \indexspace
+
+  \item {T\+O\+W\+\_\+\+N\+O\+\_\+\+E\+X\+I\+ST}
+    \subitem {translate\+::\+Pt\+BR}, \hyperpage{67}
+    \subitem {translate\+::\+Translate\+Message}, \hyperpage{108}
+  \item {test}, \hyperpage{10}
+  \item {test.\+Calculate\+Distance\+Test}, \hyperpage{14}
+  \item {test.\+Data\+File\+Test}, \hyperpage{26}
+  \item {test.\+Filter\+Test}, \hyperpage{39}
+  \item {test.\+Graph\+Test}, \hyperpage{54}
+  \item {test.\+Permutation\+Test}, \hyperpage{64}
+  \item {test.\+Rail\+System\+Test}, \hyperpage{73}
+  \item {test.\+Route\+Test}, \hyperpage{88}
+  \item {test.\+Shortest\+Route\+Test}, \hyperpage{99}
+  \item {test.\+Town\+Test}, \hyperpage{104}
+  \item {test\+::\+Calculate\+Distance\+Test}
+    \subitem {cd}, \hyperpage{15}
+    \subitem {set\+Up}, \hyperpage{14}
+    \subitem {test\+Calculate}, \hyperpage{14}
+    \subitem {test\+Calculate\+All}, \hyperpage{15}
+  \item {test\+::\+Data\+File\+Test}
+    \subitem {set\+Up}, \hyperpage{27}
+    \subitem {test\+Open}, \hyperpage{27}
+    \subitem {test\+Read\+Condition\+String\+Int}, \hyperpage{27}
+    \subitem {test\+Read\+Double\+String\+Int}, \hyperpage{27}
+    \subitem {test\+Read\+Integer\+String\+Int}, \hyperpage{28}
+    \subitem {test\+Read\+List\+String}, \hyperpage{28}
+    \subitem {test\+Read\+List\+String\+Int}, \hyperpage{28}
+    \subitem {test\+Read\+Literal\+Operand\+String\+Int}, 
+		\hyperpage{29}
+  \item {test\+::\+Filter\+Test}
+    \subitem {filter}, \hyperpage{40}
+    \subitem {set\+Up}, \hyperpage{40}
+    \subitem {test\+Filter\+By}, \hyperpage{40}
+  \item {test\+::\+Graph\+Test}
+    \subitem {graph}, \hyperpage{60}
+    \subitem {set\+Up}, \hyperpage{54}
+    \subitem {test\+Add\+Route}, \hyperpage{55}
+    \subitem {test\+Add\+Town}, \hyperpage{55}
+    \subitem {test\+Contains\+Town}, \hyperpage{56}
+    \subitem {test\+Get\+All\+Route\+Possible}, \hyperpage{57}
+    \subitem {test\+Get\+All\+Routes}, \hyperpage{57}
+    \subitem {test\+Get\+All\+Towns}, \hyperpage{57}
+    \subitem {test\+Get\+Connections}, \hyperpage{58}
+    \subitem {test\+Get\+Route}, \hyperpage{58}
+    \subitem {test\+Graph}, \hyperpage{59}
+    \subitem {test\+Is\+Route\+Available}, \hyperpage{59}
+    \subitem {test\+Load\+Graph\+Routes\+From\+File}, \hyperpage{59}
+    \subitem {testcalculate\+Distance}, \hyperpage{55}
+    \subitem {testclear}, \hyperpage{56}
+  \item {test\+::\+Permutation\+Test}
+    \subitem {set\+Up}, \hyperpage{64}
+    \subitem {test\+Get\+All\+Lists}, \hyperpage{64}
+  \item {test\+::\+Rail\+System\+Test}
+    \subitem {set\+Up}, \hyperpage{73}
+    \subitem {test\+Calculate\+Distance}, \hyperpage{73}
+    \subitem {test\+Filter\+By\+Stops1}, \hyperpage{73}
+    \subitem {test\+Filter\+By\+Stops2}, \hyperpage{74}
+    \subitem {test\+Shortest\+Route}, \hyperpage{74}
+  \item {test\+::\+Route\+Test}
+    \subitem {route}, \hyperpage{96}
+    \subitem {set\+Up}, \hyperpage{89}
+    \subitem {test\+Format\+Key}, \hyperpage{89}
+    \subitem {test\+Get\+Distance}, \hyperpage{89}
+    \subitem {test\+Get\+Ending\+Town}, \hyperpage{90}
+    \subitem {test\+Get\+Id}, \hyperpage{90}
+    \subitem {test\+Get\+Id\+Of\+Stop}, \hyperpage{90}
+    \subitem {test\+Get\+Number\+Of\+Nodes}, \hyperpage{91}
+    \subitem {test\+Get\+Number\+Of\+Stops}, \hyperpage{91}
+    \subitem {test\+Get\+Starting\+Town}, \hyperpage{91}
+    \subitem {test\+Is\+Available}, \hyperpage{92}
+    \subitem {test\+Route}, \hyperpage{92}
+    \subitem {test\+Route\+String}, \hyperpage{92}
+    \subitem {test\+Route\+String\+Double}, \hyperpage{93}
+    \subitem {test\+Set\+Available}, \hyperpage{93}
+    \subitem {test\+Set\+Id}, \hyperpage{94}
+    \subitem {test\+Set\+Route}, \hyperpage{94}
+    \subitem {test\+Set\+Total\+Distance\+Double}, \hyperpage{94}
+    \subitem {test\+Set\+Total\+Distance\+String}, \hyperpage{95}
+    \subitem {test\+Test\+Condition}, \hyperpage{95}
+  \item {test\+::\+Shortest\+Route\+Test}
+    \subitem {set\+Up}, \hyperpage{99}
+    \subitem {sr}, \hyperpage{100}
+    \subitem {test\+Get\+Shortest\+Route}, \hyperpage{99}
+    \subitem {test\+Get\+Shortest\+Route\+Route}, \hyperpage{100}
+  \item {test\+::\+Town\+Test}
+    \subitem {set\+Up}, \hyperpage{104}
+    \subitem {test\+Format\+Key}, \hyperpage{104}
+    \subitem {test\+Get\+Id}, \hyperpage{105}
+    \subitem {test\+Set\+Id}, \hyperpage{105}
+    \subitem {test\+Town}, \hyperpage{105}
+    \subitem {town}, \hyperpage{106}
+  \item {test\+Add\+Route}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{55}
+  \item {test\+Add\+Town}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{55}
+  \item {test\+Calculate}
+    \subitem {test\+::\+Calculate\+Distance\+Test}, \hyperpage{14}
+  \item {test\+Calculate\+All}
+    \subitem {test\+::\+Calculate\+Distance\+Test}, \hyperpage{15}
+  \item {test\+Calculate\+Distance}
+    \subitem {test\+::\+Rail\+System\+Test}, \hyperpage{73}
+  \item {test\+Condition}
+    \subitem {domain\+::\+Route}, \hyperpage{86}
+  \item {test\+Contains\+Town}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{56}
+  \item {test\+Filter\+By}
+    \subitem {test\+::\+Filter\+Test}, \hyperpage{40}
+  \item {test\+Filter\+By\+Stops1}
+    \subitem {test\+::\+Rail\+System\+Test}, \hyperpage{73}
+  \item {test\+Filter\+By\+Stops2}
+    \subitem {test\+::\+Rail\+System\+Test}, \hyperpage{74}
+  \item {test\+Format\+Key}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{89}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{104}
+  \item {test\+Get\+All\+Lists}
+    \subitem {test\+::\+Permutation\+Test}, \hyperpage{64}
+  \item {test\+Get\+All\+Route\+Possible}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{57}
+  \item {test\+Get\+All\+Routes}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{57}
+  \item {test\+Get\+All\+Towns}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{57}
+  \item {test\+Get\+Connections}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{58}
+  \item {test\+Get\+Distance}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{89}
+  \item {test\+Get\+Ending\+Town}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{90}
+  \item {test\+Get\+Id}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{90}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{105}
+  \item {test\+Get\+Id\+Of\+Stop}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{90}
+  \item {test\+Get\+Number\+Of\+Nodes}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{91}
+  \item {test\+Get\+Number\+Of\+Stops}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{91}
+  \item {test\+Get\+Route}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{58}
+  \item {test\+Get\+Shortest\+Route}
+    \subitem {test\+::\+Shortest\+Route\+Test}, \hyperpage{99}
+  \item {test\+Get\+Shortest\+Route\+Route}
+    \subitem {test\+::\+Shortest\+Route\+Test}, \hyperpage{100}
+  \item {test\+Get\+Starting\+Town}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{91}
+  \item {test\+Graph}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{59}
+  \item {test\+Is\+Available}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{92}
+  \item {test\+Is\+Route\+Available}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{59}
+  \item {test\+Load\+Graph\+Routes\+From\+File}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{59}
+  \item {test\+Open}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{27}
+  \item {test\+Read\+Condition\+String\+Int}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{27}
+  \item {test\+Read\+Double\+String\+Int}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{27}
+  \item {test\+Read\+Integer\+String\+Int}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{28}
+  \item {test\+Read\+List\+String}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{28}
+  \item {test\+Read\+List\+String\+Int}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{28}
+  \item {test\+Read\+Literal\+Operand\+String\+Int}
+    \subitem {test\+::\+Data\+File\+Test}, \hyperpage{29}
+  \item {test\+Route}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{92}
+  \item {test\+Route\+String}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{92}
+  \item {test\+Route\+String\+Double}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{93}
+  \item {test\+Set\+Available}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{93}
+  \item {test\+Set\+Id}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{94}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{105}
+  \item {test\+Set\+Route}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{94}
+  \item {test\+Set\+Total\+Distance\+Double}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{94}
+  \item {test\+Set\+Total\+Distance\+String}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{95}
+  \item {test\+Shortest\+Route}
+    \subitem {test\+::\+Rail\+System\+Test}, \hyperpage{74}
+  \item {test\+Test\+Condition}
+    \subitem {test\+::\+Route\+Test}, \hyperpage{95}
+  \item {test\+Town}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{105}
+  \item {testcalculate\+Distance}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{55}
+  \item {testclear}
+    \subitem {test\+::\+Graph\+Test}, \hyperpage{56}
+  \item {total\+Distance}
+    \subitem {domain\+::\+Route}, \hyperpage{88}
+  \item {Town}
+    \subitem {domain\+::\+Town}, \hyperpage{101}
+  \item {town}
+    \subitem {test\+::\+Town\+Test}, \hyperpage{106}
+  \item {translate}, \hyperpage{10}
+  \item {translate.\+Pt\+BR}, \hyperpage{65}
+  \item {translate.\+Translate}, \hyperpage{106}
+  \item {translate.\+Translate\+Message}, \hyperpage{107}
+  \item {translate\+::\+Pt\+BR}
+    \subitem {F\+I\+L\+E\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}, 
+		\hyperpage{66, 67}
+    \subitem {I\+N\+C\+O\+R\+R\+E\+C\+T\+\_\+\+P\+A\+R\+A\+M\+E\+T\+E\+RS}, 
+		\hyperpage{66, 67}
+    \subitem {P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}, 
+		\hyperpage{66, 67}
+    \subitem {R\+O\+U\+T\+E\+\_\+\+N\+O\+\_\+\+A\+V\+A\+I\+L\+A\+B\+LE}, 
+		\hyperpage{66, 67}
+    \subitem {T\+O\+W\+\_\+\+N\+O\+\_\+\+E\+X\+I\+ST}, \hyperpage{67}
+  \item {translate\+::\+Translate}
+    \subitem {M\+E\+S\+S\+A\+GE}, \hyperpage{107}
+  \item {translate\+::\+Translate\+Message}
+    \subitem {F\+I\+L\+E\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}, 
+		\hyperpage{107}
+    \subitem {I\+N\+C\+O\+R\+R\+E\+C\+T\+\_\+\+P\+A\+R\+A\+M\+E\+T\+E\+RS}, 
+		\hyperpage{108}
+    \subitem {P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+N\+O\+T\+\_\+\+F\+O\+U\+ND}, 
+		\hyperpage{108}
+    \subitem {R\+O\+U\+T\+E\+\_\+\+N\+O\+\_\+\+A\+V\+A\+I\+L\+A\+B\+LE}, 
+		\hyperpage{108}
+    \subitem {T\+O\+W\+\_\+\+N\+O\+\_\+\+E\+X\+I\+ST}, \hyperpage{108}
+
+  \indexspace
+
+  \item {utilities}, \hyperpage{10}
+  \item {utilities.\+Data\+File}, \hyperpage{16}
+  \item {utilities.\+File\+Property}, \hyperpage{35}
+  \item {utilities.\+Permutation}, \hyperpage{63}
+  \item {utilities\+::\+Data\+File}
+    \subitem {check\+File\+Exist}, \hyperpage{17}
+    \subitem {close}, \hyperpage{17}
+    \subitem {D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}, 
+		\hyperpage{24}
+    \subitem {F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES}, 
+		\hyperpage{25}
+    \subitem {file\+\_\+name}, \hyperpage{25}
+    \subitem {get\+File\+Name}, \hyperpage{17}
+    \subitem {input}, \hyperpage{25}
+    \subitem {open}, \hyperpage{18}
+    \subitem {P\+A\+T\+H\+\_\+\+F\+I\+LE}, \hyperpage{25}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}, 
+		\hyperpage{25}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}, 
+		\hyperpage{25}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER}, 
+		\hyperpage{25}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST}, \hyperpage{25}
+    \subitem {P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND}, 
+		\hyperpage{26}
+    \subitem {prop}, \hyperpage{26}
+    \subitem {read\+Condition}, \hyperpage{18}
+    \subitem {read\+Double}, \hyperpage{19}
+    \subitem {read\+Integer}, \hyperpage{20}
+    \subitem {read\+List}, \hyperpage{21, 22}
+    \subitem {read\+Literal\+Operand}, \hyperpage{23}
+    \subitem {S\+E\+P\+A\+R\+A\+T\+OR}, \hyperpage{26}
+    \subitem {S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}, 
+		\hyperpage{26}
+    \subitem {S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}, 
+		\hyperpage{26}
+    \subitem {set\+File\+Name}, \hyperpage{23}
+  \item {utilities\+::\+File\+Property}
+    \subitem {D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+R\+O\+U\+T\+ES}, 
+		\hyperpage{36}
+    \subitem {F\+I\+L\+T\+E\+R\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}, 
+		\hyperpage{36}
+    \subitem {F\+I\+L\+T\+E\+R\+\_\+\+R\+O\+U\+T\+ES}, \hyperpage{36}
+    \subitem {File\+Property}, \hyperpage{35}
+    \subitem {G\+R\+A\+P\+H\+\_\+\+R\+O\+U\+T\+ES}, \hyperpage{36}
+    \subitem {get\+Name}, \hyperpage{35}
+    \subitem {name}, \hyperpage{36}
+    \subitem {S\+H\+O\+R\+T\+E\+S\+T\+\_\+\+R\+O\+U\+T\+ES}, 
+		\hyperpage{37}
+  \item {utilities\+::\+Permutation}
+    \subitem {get\+All\+Lists}, \hyperpage{63}
+
+\end{theindex}

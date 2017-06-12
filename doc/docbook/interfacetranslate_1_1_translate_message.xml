@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="interfacetranslate_1_1_translate_message">
+<title>translate::TranslateMessage interface Reference</title>
+<para>Inheritance diagram for translate::TranslateMessage</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="interfacetranslate_1_1_translate_message__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for translate::TranslateMessage</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="interfacetranslate_1_1_translate_message__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="interfacetranslate_1_1_translate_message_1a14980a980a4b83cdb91d03ffc38ee0a9">TOW_NO_EXIST</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="interfacetranslate_1_1_translate_message_1a0344fddc67cf717c9129ef5677d0c0aa">ROUTE_NO_AVAILABLE</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="interfacetranslate_1_1_translate_message_1ac31959ba666c507f8a95e889e8270461">INCORRECT_PARAMETERS</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="interfacetranslate_1_1_translate_message_1a3f2a7a799ec42cc41a55dee943fd4b2a">FILE_NOT_FOUND</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="interfacetranslate_1_1_translate_message_1a08a2eabc6729bdd4a63f98aa1cc418e3">PROPERTY_NOT_FOUND</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="interfacetranslate_1_1_translate_message_1a14980a980a4b83cdb91d03ffc38ee0a9">
+                <title>String translate.TranslateMessage.TOW_NO_EXIST ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacetranslate_1_1_translate_message_1a0344fddc67cf717c9129ef5677d0c0aa">
+                <title>String translate.TranslateMessage.ROUTE_NO_AVAILABLE ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacetranslate_1_1_translate_message_1ac31959ba666c507f8a95e889e8270461">
+                <title>String translate.TranslateMessage.INCORRECT_PARAMETERS ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacetranslate_1_1_translate_message_1a3f2a7a799ec42cc41a55dee943fd4b2a">
+                <title>String translate.TranslateMessage.FILE_NOT_FOUND ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacetranslate_1_1_translate_message_1a08a2eabc6729bdd4a63f98aa1cc418e3">
+                <title>String translate.TranslateMessage.PROPERTY_NOT_FOUND ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

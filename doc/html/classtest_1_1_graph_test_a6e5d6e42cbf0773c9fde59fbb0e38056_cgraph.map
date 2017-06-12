@@ -1,0 +1,13 @@
+<map id="test.GraphTest.testGetConnections" name="test.GraphTest.testGetConnections">
+<area shape="rect" id="node2" href="$classdomain_1_1_graph.html#a2ecd9722f3cbb7d97fda519101d249ed" title="domain.Graph.addRoute" alt="" coords="297,132,460,159"/>
+<area shape="rect" id="node10" href="$classdomain_1_1_graph.html#adab0f0e6ae7af913998f537aa0fe62f1" title="domain.Graph.getConnections" alt="" coords="280,259,477,285"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_route.html#a750d0fa997e2a369cd6721316df90adf" title="domain.Route.formatKey" alt="" coords="542,5,707,32"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_route.html#a5a9ed7d2692549002ab7ae59a3b5b5d9" title="domain.Route.getKey" alt="" coords="551,56,698,83"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_graph.html#a93f040b758a5f920d195f2fbfdccc741" title="domain.Graph.addTown" alt="" coords="545,107,704,133"/>
+<area shape="rect" id="node8" href="$classdomain_1_1_route.html#a63676b06b623621dbde9a06126bf4b5c" title="domain.Route.getStartingTown" alt="" coords="525,157,724,184"/>
+<area shape="rect" id="node9" href="$classdomain_1_1_route.html#a914f727c54adab3aa1a62f61c997dcdd" title="domain.Route.getEndingTown" alt="" coords="527,208,722,235"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_town.html#a6a88af9728067dd135eea6df9591496b" title="domain.Town.formatKey" alt="" coords="772,81,933,108"/>
+<area shape="rect" id="node7" href="$classdomain_1_1_town.html#a4d9996c44520ba3639163348b1c1d2ca" title="domain.Town.getKey" alt="" coords="781,132,924,159"/>
+<area shape="rect" id="node11" href="$classdomain_1_1_graph.html#aa91cc429a4ea1d2c3341baea617e4028" title="domain.Graph.getAllRoutes" alt="" coords="534,259,715,285"/>
+<area shape="rect" id="node12" href="$classdomain_1_1_graph.html#aa8ae0912dcbd41c932ab29815e85af36" title="domain.Graph.containsTown" alt="" coords="531,309,718,336"/>
+</map>

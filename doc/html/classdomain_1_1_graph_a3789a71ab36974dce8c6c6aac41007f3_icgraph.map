@@ -1,0 +1,6 @@
+<map id="domain.Graph.getAllTowns" name="domain.Graph.getAllTowns">
+<area shape="rect" id="node2" href="$classdomain_1_1_graph.html#a3ceedf597c66f500579a0e302c32062b" title="domain.Graph.getAllRoute\lPossible" alt="" coords="231,37,405,79"/>
+<area shape="rect" id="node5" href="$classtest_1_1_graph_test.html#a8979ac672a459b1549444d94b4e4b46f" title="test.GraphTest.testGetAll\lTowns" alt="" coords="233,103,403,144"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_shortest_route.html#a6378b797c933b6ebb2a48447761e02f7" title="domain.ShortestRoute.get\lShortestRoute" alt="" coords="453,5,627,47"/>
+<area shape="rect" id="node4" href="$classtest_1_1_graph_test.html#a6ba6493ed4d053e9476f9e15744f4f11" title="test.GraphTest.testGetAll\lRoutePossible" alt="" coords="455,71,625,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="controller.RailSystem.init" name="controller.RailSystem.init">
+<area shape="rect" id="node2" href="$classutilities_1_1_data_file.html#a28beb850c6cc447aa7757e9f3967224c" title="utilities.DataFile.check\lFileExist" alt="" coords="236,5,391,47"/>
+<area shape="rect" id="node3" href="$interfacetranslate_1_1_translate_message.html#a3f2a7a799ec42cc41a55dee943fd4b2a" title="translate.TranslateMessage.\lFILE_NOT_FOUND" alt="" coords="220,71,407,112"/>
+</map>

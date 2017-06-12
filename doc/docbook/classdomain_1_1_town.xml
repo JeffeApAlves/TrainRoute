@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classdomain_1_1_town">
+<title>domain::Town class Reference</title>
+<para>Inheritance diagram for domain::Town</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_town__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for domain::Town</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_town__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final int MINIMAL_SIZE_OF_ID</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String PATTERN_ID</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String key</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classdomain_1_1_town_1aa94ed3b3a105cf53298454563e2302a8">Town</link> (
+String id)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="classdomain_1_1_town_1a4d9996c44520ba3639163348b1c1d2ca">getKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_town_1abc867cf10f6b9c2f7191317456071ce7">setKey</link> (
+String id)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="classdomain_1_1_town_1a6a88af9728067dd135eea6df9591496b">formatKey</link> (
+String key_route)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="classdomain_1_1_town_1aa94ed3b3a105cf53298454563e2302a8">
+                <title>domain.Town.Town (String id)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classdomain_1_1_town_1a4d9996c44520ba3639163348b1c1d2ca">
+                <title>String domain.Town.getKey ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classdomain_1_1_town_1abc867cf10f6b9c2f7191317456071ce7">
+                <title>void domain.Town.setKey (String id)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classdomain_1_1_town_1a6a88af9728067dd135eea6df9591496b">
+                <title>static String domain.Town.formatKey (String key_route)</title> <emphasis></emphasis>
+                
+<para>Formata uma string para o padrao do key de casa</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key_route</entry>
+                                <entry>
+<para>key a ser formatado </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string formatada </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

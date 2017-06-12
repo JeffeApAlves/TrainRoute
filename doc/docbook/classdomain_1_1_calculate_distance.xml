@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classdomain_1_1_calculate_distance">
+<title>domain::CalculateDistance class Reference</title>
+<para>Inheritance diagram for domain::CalculateDistance</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_calculate_distance__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for domain::CalculateDistance</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_calculate_distance__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Graph graph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classdomain_1_1_calculate_distance_1a188113ff0f6a119f4addd523b5e06a9c">calculateAll</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classdomain_1_1_route">Route</link> [] <link linkend="classdomain_1_1_calculate_distance_1ad08ace3a0aa30e9ec6c99e8826630ad3">calculate</link> (
+String [] trips)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classdomain_1_1_calculate_distance_1a188113ff0f6a119f4addd523b5e06a9c">
+                <title>Route [] domain.CalculateDistance.calculateAll ()</title> <emphasis></emphasis>
+                
+<para>Baseada na lista de rotas contida no arquivo input.txt, na proprieda distance.routes calcula a distancia de cada uma. Rotas nao possiveis serao setada como nao existente atraves da chamada do metodo setAvailabe(false) e o valor da distancia sera 0.0</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Retorna uma lista de rotas com sua respectiva distancia calculada e com a indicacao se e uma rota possivel </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_calculate_distance_1ad08ace3a0aa30e9ec6c99e8826630ad3">
+                <title>static Route [] domain.CalculateDistance.calculate (String[] trips)</title> <emphasis></emphasis>
+                
+<para>Calcula a distancia de uma lista de viagem/rotas</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>trips</entry>
+                                <entry>
+<para>lista de key das viagens/rota para o calculo da distancia </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Rotas com suas respectivas distancia calculadas </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="enumutilities_1_1_file_property">
+<title>utilities::FileProperty enum Reference</title>
+<para>Inheritance diagram for utilities::FileProperty</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="enumutilities_1_1_file_property__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for utilities::FileProperty</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="enumutilities_1_1_file_property__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>GRAPH_ROUTES</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>DISTANCE_ROUTES</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FILTER_CONDITION</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FILTER_ROUTES</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SHORTEST_ROUTES</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="enumutilities_1_1_file_property_1ae5d3cd75fb3b377b2e9570490d54f8af">FileProperty</link> (
+String name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="enumutilities_1_1_file_property_1ab7c90f768108531dd4468878da2f452d">getName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>1.Mapa de estacoes</para>
+
+<para>Diagrama esta baseado na descricao do teste. O sinal &apos;*&apos; indica rotas de chegada na estacao O numero ente (D) indica a distancia <literallayout>  ------------(3)----------------- 
+  |                              |
+  |                              * 
+  | -(7)-[ A ]------(5)-------*[ B ]
+  | |      |                     |
+  | |     (5)                   (4)
+  | |      |                     |
+  | *      *                     *
+ [ E ]*--[ D ] -----(8)-------*[ C ]
+   *          *-----(8)-------   |
+   |                             |
+   ----------(2)------------------
+</literallayout></para>
+
+<para>Mapeamento de todas as rotas disponiveis O SW esta trabalhando dinamicamente, podendo ser adicionadas novas rotas Para numeros decimais usar &apos;.&apos; Importante ! Separador por virgula---------------------------------------------------------------&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; Questoes:<orderedlist>
+<listitem>
+<para>The distance of the route A-B-C.</para>
+</listitem><listitem>
+<para>The distance of the route A-D.</para>
+</listitem><listitem>
+<para>The distance of the route A-D-C.</para>
+</listitem><listitem>
+<para>The distance of the route A-E-B-C-D.</para>
+</listitem><listitem>
+<para>The distance of the route A-E-D.</para>
+</listitem></orderedlist>
+</para>
+
+<para>Mapeamento das rotas para calculo da distancia O hifem e opcional Importante ! Separador virgula Possibilidade de adiconar quantas rotas forem necessarias sem a necessidade alteracao do software---------------------------------------------------------------------&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; Questoes:<orderedlist>
+<listitem>
+<para>The number of trips starting at C and ending at C with a maximum of 3 stops. In the sample data below, there are two such trips: C-D-C (2 stops). and C-E-B-C (3 stops).</para>
+</listitem></orderedlist>
+</para>
+
+<para>Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao indicada em filtertrips[X].condition. Condicoes permitidas: &lt;,&gt;,&lt;=,&gt;=,==,!= Operandos permitidos STOPS,DISTANCE O hifem e opcional Rotas invalidas serao desconsideradas Importante: Separador por virgula Possibilidade de adiconar quantos filtros necessario apenas diferenciar atraves do index</para>
+
+<para>Condicao de STOPS---------------------------------------------------------------------------&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; Questoes:<orderedlist>
+<listitem>
+<para>The number of trips starting at A and ending at C with exactly 4 stops. In the sample data below, there are three such trips: A to C (via B,C,D); A to C (via D,C,D); and A to C (via D,E,B).</para>
+</listitem></orderedlist>
+</para>
+
+<para>Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao indicada em filtertrips[X].condition. Condicoes permitidas: &lt;,&gt;,&lt;=,&gt;=,==,!= Operandos permitidos STOPS,DISTANCE O hifem e opcional Rotas invalidas serao desconsideradas Importante: Separador por virgula Possibilidade de adiconar quantos filtros necessario apenas diferenciar atraves do index</para>
+
+<para>Condicao de STOPS---------------------------------------------------------------------------------&#8212;&#8212;&#8212;&#8212;&#8212; Questoes:<orderedlist>
+<listitem>
+<para>The length of the shortest route (in terms of distance to travel) from A to C.</para>
+</listitem><listitem>
+<para>The length of the shortest route (in terms of distance to travel) from B to B.</para>
+</listitem></orderedlist>
+</para>
+
+<para>Encontra as opcoes de rotas menores(distancia) entre o ponto de partida A e o de chegada B Possibilidade de adiconar quantas viagens(rotas) necessarias. Rotas invalidas serao desconsideradas O hifem e opcional Separador virgula---------------------------------------------------------------------------------------&#8212;&#8212;&#8212; Questoes: 10.The number of different routes from C to C with a distance of less than 30. In the sample data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC.</para>
+
+<para>Verifica se as rotas indicadas na propriedade filtertrips[X].routes satifazem a condicao indicada em filtertrips[X].condition. Condicoes permitidas: &lt;,&gt;,&lt;=,&gt;=,==,!= Operandos permitidos STOPS,DISTANCE O hifem e opcional Rotas invalidas serao desconsideradas Importante: Separador por virgula Possibilidade de adiconar quantos filtros necessario apenas diferenciar atraves do index</para>
+
+<para>Condicao de Distancia---------------------------------------------------------------------------------------------&#8212; </para>
+                <para>Definition at line 131 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+            <simplesect>
+                <title>utilities.FileProperty.GRAPH_ROUTES</title>                
+<para>Nome da proriedade onde estara mapeados as rotas do mapa no arquivo de entrada </para>
+
+                <para>Definition at line 136 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>utilities.FileProperty.DISTANCE_ROUTES</title>                
+<para>Nome da proriedade onde estara mapeados as rotas para calculo da distancia </para>
+
+                <para>Definition at line 141 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>utilities.FileProperty.FILTER_CONDITION</title>                
+<para>Nome da proriedade onde estara a condicao para filtro de rotas </para>
+
+                <para>Definition at line 146 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>utilities.FileProperty.FILTER_ROUTES</title>                
+<para>Nome da proriedade onde estara mapeados as rotas para aplicacao do filtro </para>
+
+                <para>Definition at line 151 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>utilities.FileProperty.SHORTEST_ROUTES</title>                
+<para>Nome da proriedade onde estara mapeados as rotas para calculo da memor distancia </para>
+
+                <para>Definition at line 156 of file FileProperty.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>FileProperty.java</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="enumutilities_1_1_file_property_1ae5d3cd75fb3b377b2e9570490d54f8af">
+                <title>utilities.FileProperty.FileProperty (String name)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="enumutilities_1_1_file_property_1ab7c90f768108531dd4468878da2f452d">
+                <title>String utilities.FileProperty.getName ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

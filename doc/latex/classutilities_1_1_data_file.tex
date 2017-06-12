@@ -1,0 +1,432 @@
+\hypertarget{classutilities_1_1_data_file}{}\section{utilities.\+Data\+File Class Reference}
+\label{classutilities_1_1_data_file}\index{utilities.\+Data\+File@{utilities.\+Data\+File}}
+
+
+Collaboration diagram for utilities.\+Data\+File\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classutilities_1_1_data_file__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classutilities_1_1_data_file_a03d4af9888db5dfd5031fd3ead4964bf}{set\+File\+Name} (String file)
+\item 
+static String \hyperlink{classutilities_1_1_data_file_ae5e95d9019f786414f891e2afc966381}{get\+File\+Name} ()
+\item 
+static boolean \hyperlink{classutilities_1_1_data_file_aa53fb6327a320f458fd8314751e241c9}{open} ()
+\item 
+static void \hyperlink{classutilities_1_1_data_file_a4f113f0a5f50902308585d1f11988ec7}{close} ()
+\item 
+static String \mbox{[}$\,$\mbox{]} \hyperlink{classutilities_1_1_data_file_a68332bb2b70bafbaae007d952ba4264b}{read\+List} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property)
+\item 
+static String \mbox{[}$\,$\mbox{]} \hyperlink{classutilities_1_1_data_file_a86acc1699af206a96ab51c94d6663afe}{read\+List} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property, int index\+\_\+filter)
+\item 
+static String \hyperlink{classutilities_1_1_data_file_ae44a128705ef07c67393153806fb5216}{read\+Condition} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property, int index\+\_\+filter)
+\item 
+static double \hyperlink{classutilities_1_1_data_file_aafa9fbee5003c8d9abcd0b02ba4b31dc}{read\+Double} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property, int index\+\_\+filter)
+\item 
+static int \hyperlink{classutilities_1_1_data_file_a7576f90d40db372f262216f8f6a64c28}{read\+Integer} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property, int index\+\_\+filter)
+\item 
+static String \hyperlink{classutilities_1_1_data_file_adb4c1c9272d3497615385f4f8278ab60}{read\+Literal\+Operand} (\hyperlink{enumutilities_1_1_file_property}{File\+Property} property, int index\+\_\+filter)
+\item 
+static boolean \hyperlink{classutilities_1_1_data_file_a28beb850c6cc447aa7757e9f3967224c}{check\+File\+Exist} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classutilities_1_1_data_file_a7db48e719d69b2fb08dec6730949acf9}{D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON} =3
+\item 
+static final int \hyperlink{classutilities_1_1_data_file_a73169a0777ef2c7e224420ab3f4be9dc}{S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON} =1
+\item 
+static final int \hyperlink{classutilities_1_1_data_file_afdb877fcbb93d5bf2e6757f844c0a0e0}{S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON} =2
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_ab2cdae484f28934cf77316bbf9af0b72}{P\+A\+T\+H\+\_\+\+F\+I\+LE} = \char`\"{}input.\+txt\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_a6d7f06ae7db77b3b202c31190c2281e3}{F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES} = \char`\"{}F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+S\+E.\+txt\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Properties \hyperlink{classutilities_1_1_data_file_a56e3023d87523528a6126799b02b089d}{prop} = new Properties()
+\item 
+static Input\+Stream \hyperlink{classutilities_1_1_data_file_a80202aa4edd480f4404d9fd4adcedbfc}{input} = null
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_a25b4360923bcdd2e38e81df53297ee94}{P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST} =\char`\"{}\mbox{[}$^\wedge$a-\/zA-\/Z0-\/9.,\mbox{]}\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_aeb2abc62f5fe561e1425331c49c1a58d}{P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND} =\char`\"{}\mbox{[}$^\wedge$a-\/zA-\/Z,\mbox{]}\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_ac00c547e129cb9c057f7a0d499015797}{P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE} =\char`\"{}\mbox{[}$^\wedge$0-\/9.,\mbox{]}\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_a51e037b86bf7cd4b6ce02a384d9ad6f2}{P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER} =\char`\"{}\mbox{[}$^\wedge$0-\/9\mbox{]}\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_aee831317a6c670d621683dbfadf1d19f}{P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON} =\char`\"{}\mbox{[}$^\wedge$$<$$>$=!\mbox{]}\char`\"{}
+\item 
+static final String \hyperlink{classutilities_1_1_data_file_ae7a89abc44a0f02d5b6205b6e2f53a06}{S\+E\+P\+A\+R\+A\+T\+OR} =\char`\"{},\char`\"{}
+\item 
+static String \hyperlink{classutilities_1_1_data_file_acc01b0a1464087e54962b7c6202dbb5f}{file\+\_\+name} = \hyperlink{classutilities_1_1_data_file_ab2cdae484f28934cf77316bbf9af0b72}{P\+A\+T\+H\+\_\+\+F\+I\+LE}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a28beb850c6cc447aa7757e9f3967224c}\label{classutilities_1_1_data_file_a28beb850c6cc447aa7757e9f3967224c}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!check\+File\+Exist@{check\+File\+Exist}}
+\index{check\+File\+Exist@{check\+File\+Exist}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{check\+File\+Exist()}{checkFileExist()}}
+{\footnotesize\ttfamily static boolean utilities.\+Data\+File.\+check\+File\+Exist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a28beb850c6cc447aa7757e9f3967224c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a4f113f0a5f50902308585d1f11988ec7}\label{classutilities_1_1_data_file_a4f113f0a5f50902308585d1f11988ec7}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!close@{close}}
+\index{close@{close}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily static void utilities.\+Data\+File.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fecha o arquivo de entrada Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a4f113f0a5f50902308585d1f11988ec7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_ae5e95d9019f786414f891e2afc966381}\label{classutilities_1_1_data_file_ae5e95d9019f786414f891e2afc966381}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!get\+File\+Name@{get\+File\+Name}}
+\index{get\+File\+Name@{get\+File\+Name}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{get\+File\+Name()}{getFileName()}}
+{\footnotesize\ttfamily static String utilities.\+Data\+File.\+get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Retorna nome do arquivo em uso 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_ae5e95d9019f786414f891e2afc966381_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_aa53fb6327a320f458fd8314751e241c9}\label{classutilities_1_1_data_file_aa53fb6327a320f458fd8314751e241c9}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!open@{open}}
+\index{open@{open}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{open()}{open()}}
+{\footnotesize\ttfamily static boolean utilities.\+Data\+File.\+open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Abre o arquivo de entrada \begin{DoxyReturn}{Returns}
+Se o arquivo foi aberto com sucesso retorna true 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_aa53fb6327a320f458fd8314751e241c9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_aa53fb6327a320f458fd8314751e241c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_ae44a128705ef07c67393153806fb5216}\label{classutilities_1_1_data_file_ae44a128705ef07c67393153806fb5216}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+Condition@{read\+Condition}}
+\index{read\+Condition@{read\+Condition}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+Condition()}{readCondition()}}
+{\footnotesize\ttfamily static String utilities.\+Data\+File.\+read\+Condition (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property,  }\item[{int}]{index\+\_\+filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le uma condicao do arquivo de entrada 
+\begin{DoxyParams}{Parameters}
+{\em property} & propriedade onde a condicao sera buscado \\
+\hline
+{\em index\+\_\+filter} & index da propriedade a ser buscada ex\+: propriedade\mbox{[}index\mbox{]}.condition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna a condicao literal lido do arquivo 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_ae44a128705ef07c67393153806fb5216_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_ae44a128705ef07c67393153806fb5216_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_aafa9fbee5003c8d9abcd0b02ba4b31dc}\label{classutilities_1_1_data_file_aafa9fbee5003c8d9abcd0b02ba4b31dc}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+Double@{read\+Double}}
+\index{read\+Double@{read\+Double}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+Double()}{readDouble()}}
+{\footnotesize\ttfamily static double utilities.\+Data\+File.\+read\+Double (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property,  }\item[{int}]{index\+\_\+filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le um double do arquivo de entrada 
+\begin{DoxyParams}{Parameters}
+{\em property} & propriedade onde o double sera buscado \\
+\hline
+{\em index\+\_\+filter} & index identifica qual propriedade dentro do array que existe no arquivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o double lido do arquivo 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_aafa9fbee5003c8d9abcd0b02ba4b31dc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_aafa9fbee5003c8d9abcd0b02ba4b31dc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a7576f90d40db372f262216f8f6a64c28}\label{classutilities_1_1_data_file_a7576f90d40db372f262216f8f6a64c28}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+Integer@{read\+Integer}}
+\index{read\+Integer@{read\+Integer}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+Integer()}{readInteger()}}
+{\footnotesize\ttfamily static int utilities.\+Data\+File.\+read\+Integer (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property,  }\item[{int}]{index\+\_\+filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le um interiro do arquivo de entrada 
+\begin{DoxyParams}{Parameters}
+{\em property} & propriedade onde o inteiro sera buscado \\
+\hline
+{\em index\+\_\+filter} & index identifica qual propriedade dentro do array que existe no arquivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o inteiro lido do arquivo 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a7576f90d40db372f262216f8f6a64c28_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a7576f90d40db372f262216f8f6a64c28_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a68332bb2b70bafbaae007d952ba4264b}\label{classutilities_1_1_data_file_a68332bb2b70bafbaae007d952ba4264b}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+List@{read\+List}}
+\index{read\+List@{read\+List}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+List()}{readList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static String \mbox{[}$\,$\mbox{]} utilities.\+Data\+File.\+read\+List (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le uma lista de string do arquivo de entrada 
+\begin{DoxyParams}{Parameters}
+{\em property} & identificador da propriedade a ser lida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o array de string lido do arquivo 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a68332bb2b70bafbaae007d952ba4264b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a86acc1699af206a96ab51c94d6663afe}\label{classutilities_1_1_data_file_a86acc1699af206a96ab51c94d6663afe}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+List@{read\+List}}
+\index{read\+List@{read\+List}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+List()}{readList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static String \mbox{[}$\,$\mbox{]} utilities.\+Data\+File.\+read\+List (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property,  }\item[{int}]{index\+\_\+filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le um array de string do arquivo de entrada 
+\begin{DoxyParams}{Parameters}
+{\em property} & propriedade onde o array de string sera buscado \\
+\hline
+{\em index\+\_\+filter} & index da propriedade a ser buscada ex\+: propriedade\mbox{[}index\mbox{]}.condition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o array de string lido do arquivo 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a86acc1699af206a96ab51c94d6663afe_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_adb4c1c9272d3497615385f4f8278ab60}\label{classutilities_1_1_data_file_adb4c1c9272d3497615385f4f8278ab60}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!read\+Literal\+Operand@{read\+Literal\+Operand}}
+\index{read\+Literal\+Operand@{read\+Literal\+Operand}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{read\+Literal\+Operand()}{readLiteralOperand()}}
+{\footnotesize\ttfamily static String utilities.\+Data\+File.\+read\+Literal\+Operand (\begin{DoxyParamCaption}\item[{\hyperlink{enumutilities_1_1_file_property}{File\+Property}}]{property,  }\item[{int}]{index\+\_\+filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Le um operando na forma literal do arquivo de entrada
+
+
+\begin{DoxyParams}{Parameters}
+{\em property} & propriedade a ser lida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o operando, na forma literal, lido do arquivo 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em index\+\_\+filter} & index identifica qual propriedade dentro do array que existe no arquivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o operando, na forma literal, lido do arquivo 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_adb4c1c9272d3497615385f4f8278ab60_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_adb4c1c9272d3497615385f4f8278ab60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a03d4af9888db5dfd5031fd3ead4964bf}\label{classutilities_1_1_data_file_a03d4af9888db5dfd5031fd3ead4964bf}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!set\+File\+Name@{set\+File\+Name}}
+\index{set\+File\+Name@{set\+File\+Name}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{set\+File\+Name()}{setFileName()}}
+{\footnotesize\ttfamily static void utilities.\+Data\+File.\+set\+File\+Name (\begin{DoxyParamCaption}\item[{String}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Configura o nome do arquivo
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & path + nome do arquivo a ser utilizado para entrada dos valores \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a03d4af9888db5dfd5031fd3ead4964bf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classutilities_1_1_data_file_a03d4af9888db5dfd5031fd3ead4964bf_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classutilities_1_1_data_file_a7db48e719d69b2fb08dec6730949acf9}\label{classutilities_1_1_data_file_a7db48e719d69b2fb08dec6730949acf9}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}}
+\index{D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}{DISTANCE\_CONDITION}}
+{\footnotesize\ttfamily final int utilities.\+Data\+File.\+D\+I\+S\+T\+A\+N\+C\+E\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON =3\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_acc01b0a1464087e54962b7c6202dbb5f}\label{classutilities_1_1_data_file_acc01b0a1464087e54962b7c6202dbb5f}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!file\+\_\+name@{file\+\_\+name}}
+\index{file\+\_\+name@{file\+\_\+name}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{file\+\_\+name}{file\_name}}
+{\footnotesize\ttfamily String utilities.\+Data\+File.\+file\+\_\+name = \hyperlink{classutilities_1_1_data_file_ab2cdae484f28934cf77316bbf9af0b72}{P\+A\+T\+H\+\_\+\+F\+I\+LE}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a6d7f06ae7db77b3b202c31190c2281e3}\label{classutilities_1_1_data_file_a6d7f06ae7db77b3b202c31190c2281e3}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES@{F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES}}
+\index{F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES@{F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES}{FILE\_TESTS\_CASES}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+S\+\_\+\+C\+A\+S\+ES = \char`\"{}F\+I\+L\+E\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+S\+E.\+txt\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a80202aa4edd480f4404d9fd4adcedbfc}\label{classutilities_1_1_data_file_a80202aa4edd480f4404d9fd4adcedbfc}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!input@{input}}
+\index{input@{input}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily Input\+Stream utilities.\+Data\+File.\+input = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_ab2cdae484f28934cf77316bbf9af0b72}\label{classutilities_1_1_data_file_ab2cdae484f28934cf77316bbf9af0b72}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+H\+\_\+\+F\+I\+LE@{P\+A\+T\+H\+\_\+\+F\+I\+LE}}
+\index{P\+A\+T\+H\+\_\+\+F\+I\+LE@{P\+A\+T\+H\+\_\+\+F\+I\+LE}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+H\+\_\+\+F\+I\+LE}{PATH\_FILE}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+H\+\_\+\+F\+I\+LE = \char`\"{}input.\+txt\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+Nome do Arquivo de entrada \mbox{\Hypertarget{classutilities_1_1_data_file_aee831317a6c670d621683dbfadf1d19f}\label{classutilities_1_1_data_file_aee831317a6c670d621683dbfadf1d19f}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}}
+\index{P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}{PATTERN\_CONDITION}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON =\char`\"{}\mbox{[}$^\wedge$$<$$>$=!\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_ac00c547e129cb9c057f7a0d499015797}\label{classutilities_1_1_data_file_ac00c547e129cb9c057f7a0d499015797}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE@{P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}}
+\index{P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE@{P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE}{PATTERN\_DOUBLE}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+D\+O\+U\+B\+LE =\char`\"{}\mbox{[}$^\wedge$0-\/9.,\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a51e037b86bf7cd4b6ce02a384d9ad6f2}\label{classutilities_1_1_data_file_a51e037b86bf7cd4b6ce02a384d9ad6f2}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER@{P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER}}
+\index{P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER@{P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER}{PATTERN\_INTEGER}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+I\+N\+T\+E\+G\+ER =\char`\"{}\mbox{[}$^\wedge$0-\/9\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a25b4360923bcdd2e38e81df53297ee94}\label{classutilities_1_1_data_file_a25b4360923bcdd2e38e81df53297ee94}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST@{P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST}}
+\index{P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST@{P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST}{PATTERN\_LIST}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+L\+I\+ST =\char`\"{}\mbox{[}$^\wedge$a-\/zA-\/Z0-\/9.,\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_aeb2abc62f5fe561e1425331c49c1a58d}\label{classutilities_1_1_data_file_aeb2abc62f5fe561e1425331c49c1a58d}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND@{P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND}}
+\index{P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND@{P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND}{PATTERN\_OPERAND}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+O\+P\+E\+R\+A\+ND =\char`\"{}\mbox{[}$^\wedge$a-\/zA-\/Z,\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a56e3023d87523528a6126799b02b089d}\label{classutilities_1_1_data_file_a56e3023d87523528a6126799b02b089d}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!prop@{prop}}
+\index{prop@{prop}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{prop}{prop}}
+{\footnotesize\ttfamily Properties utilities.\+Data\+File.\+prop = new Properties()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_ae7a89abc44a0f02d5b6205b6e2f53a06}\label{classutilities_1_1_data_file_ae7a89abc44a0f02d5b6205b6e2f53a06}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!S\+E\+P\+A\+R\+A\+T\+OR@{S\+E\+P\+A\+R\+A\+T\+OR}}
+\index{S\+E\+P\+A\+R\+A\+T\+OR@{S\+E\+P\+A\+R\+A\+T\+OR}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{S\+E\+P\+A\+R\+A\+T\+OR}{SEPARATOR}}
+{\footnotesize\ttfamily final String utilities.\+Data\+File.\+S\+E\+P\+A\+R\+A\+T\+OR =\char`\"{},\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_a73169a0777ef2c7e224420ab3f4be9dc}\label{classutilities_1_1_data_file_a73169a0777ef2c7e224420ab3f4be9dc}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}}
+\index{S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}{STOP1\_CONDITION}}
+{\footnotesize\ttfamily final int utilities.\+Data\+File.\+S\+T\+O\+P1\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON =1\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classutilities_1_1_data_file_afdb877fcbb93d5bf2e6757f844c0a0e0}\label{classutilities_1_1_data_file_afdb877fcbb93d5bf2e6757f844c0a0e0}} 
+\index{utilities\+::\+Data\+File@{utilities\+::\+Data\+File}!S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}}
+\index{S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON@{S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}!utilities\+::\+Data\+File@{utilities\+::\+Data\+File}}
+\subsubsection{\texorpdfstring{S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON}{STOP2\_CONDITION}}
+{\footnotesize\ttfamily final int utilities.\+Data\+File.\+S\+T\+O\+P2\+\_\+\+C\+O\+N\+D\+I\+T\+I\+ON =2\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/workspace/\+Train\+Vagas/src/utilities/\hyperlink{_data_file_8java}{Data\+File.\+java}\end{DoxyCompactItemize}

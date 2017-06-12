@@ -1,0 +1,22 @@
+<map id="utilities.DataFile.open" name="utilities.DataFile.open">
+<area shape="rect" id="node2" href="$classtest_1_1_data_file_test.html#aa7338ead543ecd8b09f2a0d5a93c3ee8" title="test.DataFileTest.testOpen" alt="" coords="210,5,389,32"/>
+<area shape="rect" id="node3" href="$classutilities_1_1_data_file.html#a86acc1699af206a96ab51c94d6663afe" title="utilities.DataFile.readList" alt="" coords="217,56,382,83"/>
+<area shape="rect" id="node4" href="$classutilities_1_1_data_file.html#ae44a128705ef07c67393153806fb5216" title="utilities.DataFile.readCondition" alt="" coords="200,157,399,184"/>
+<area shape="rect" id="node16" href="$classutilities_1_1_data_file.html#aafa9fbee5003c8d9abcd0b02ba4b31dc" title="utilities.DataFile.readDouble" alt="" coords="207,277,391,304"/>
+<area shape="rect" id="node18" href="$classutilities_1_1_data_file.html#a7576f90d40db372f262216f8f6a64c28" title="utilities.DataFile.readInteger" alt="" coords="208,107,391,133"/>
+<area shape="rect" id="node20" href="$classutilities_1_1_data_file.html#adb4c1c9272d3497615385f4f8278ab60" title="utilities.DataFile.readLiteral\lOperand" alt="" coords="210,209,389,250"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_filter.html#a5935a1a7d6f7b13de220ed9b6547b897" title="domain.Filter.filterBy" alt="" coords="465,157,606,184"/>
+<area shape="rect" id="node15" href="$classtest_1_1_data_file_test.html#afceb03fbe887feb7c9c51074ea1c41d8" title="test.DataFileTest.testRead\lConditionStringInt" alt="" coords="447,91,624,133"/>
+<area shape="rect" id="node6" href="$classcontroller_1_1_rail_system.html#aecab2f33307d056fc39b715421705d62" title="controller.RailSystem.filter\lByStops1" alt="" coords="672,51,847,93"/>
+<area shape="rect" id="node11" href="$classcontroller_1_1_rail_system.html#aac5dfeee25bd54a9a4bbdb64d52acf9f" title="controller.RailSystem.filter\lByStops2" alt="" coords="672,182,847,223"/>
+<area shape="rect" id="node13" href="$classcontroller_1_1_rail_system.html#af0f79e772114a04e35ee1f0a8eae66e4" title="controller.RailSystem.filter\lByDistance" alt="" coords="672,117,847,158"/>
+<area shape="rect" id="node14" href="$classtest_1_1_filter_test.html#abd2f49938ef9663ecee1953d09bae933" title="test.FilterTest.testFilterBy" alt="" coords="673,248,846,275"/>
+<area shape="rect" id="node7" href="$classfrontend_1_1_display.html#a80dcb9108b718e006f2f97f287619236" title="frontend.Display.showAll\lResults" alt="" coords="896,117,1060,158"/>
+<area shape="rect" id="node10" href="$classtest_1_1_rail_system_test.html#a788f13f636cb5c25db513fff9fe8668b" title="test.RailSystemTest.test\lFilterByStops1" alt="" coords="895,51,1061,93"/>
+<area shape="rect" id="node8" href="$classsoftware_1_1main.html#a20702c213493bc103f21bea8d159f810" title="software.main.runSW" alt="" coords="1109,124,1256,151"/>
+<area shape="rect" id="node9" href="$classsoftware_1_1main.html#ac0127d8d05cf1b1a55d045818ce34a68" title="software.main.main" alt="" coords="1304,124,1439,151"/>
+<area shape="rect" id="node12" href="$classtest_1_1_rail_system_test.html#a2a1e9411ccf36a39296c00a201f17f37" title="test.RailSystemTest.test\lFilterByStops2" alt="" coords="895,182,1061,223"/>
+<area shape="rect" id="node17" href="$classtest_1_1_data_file_test.html#a839677c199693ab93375ec09dfbb3407" title="test.DataFileTest.testRead\lDoubleStringInt" alt="" coords="447,274,624,315"/>
+<area shape="rect" id="node19" href="$classtest_1_1_data_file_test.html#aa614885277711640980410c5faa5b609" title="test.DataFileTest.testRead\lIntegerStringInt" alt="" coords="447,26,624,67"/>
+<area shape="rect" id="node21" href="$classtest_1_1_data_file_test.html#ad4298b1da8ab563a46e4adfdc3d15720" title="test.DataFileTest.testRead\lLiteralOperandStringInt" alt="" coords="447,209,624,250"/>
+</map>

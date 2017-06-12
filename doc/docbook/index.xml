@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+    <title>TrainVagas</title>
+    </info>
+    <chapter>
+        <title>Namespace Documentation</title>
+        <xi:include href="namespacecontroller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacedomain.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacefrontend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceorg_1_1hamcrest_1_1_core_matchers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceorg_1_1junit_1_1_assert.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceorg_1_1junit_1_1matchers_1_1_j_unit_matchers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacesoftware.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacetest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacetranslate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceutilities.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Class Documentation</title>
+        <xi:include href="classdomain_1_1_calculate_distance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_calculate_distance_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classutilities_1_1_data_file.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_data_file_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classfrontend_1_1_display.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="enumutilities_1_1_file_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classdomain_1_1_filter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_filter_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classdomain_1_1_graph.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_graph_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classsoftware_1_1main.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classutilities_1_1_permutation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_permutation_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtranslate_1_1_pt_b_r.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classcontroller_1_1_rail_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_rail_system_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classdomain_1_1_route.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_route_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classdomain_1_1_shortest_route.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_shortest_route_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classdomain_1_1_town.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtest_1_1_town_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classtranslate_1_1_translate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="interfacetranslate_1_1_translate_message.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>File Documentation</title>
+        <xi:include href="_rail_system_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_calculate_distance_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_filter_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_graph_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_route_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_shortest_route_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_town_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_display_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="main_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_calculate_distance_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_data_file_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_filter_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_graph_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_permutation_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_rail_system_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_route_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_shortest_route_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_town_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_pt_b_r_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_translate_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_translate_message_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_data_file_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_file_property_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_permutation_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Directory Documentation</title>
+        <xi:include href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_59e154daa71ab644ff60a4d6c4d01bbf.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_8509b06bafa958d2011203a730bf5778.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_b3fe0c4dde805aaa654b9f3a3a12cfa0.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_68267d1309a1af8e8297ef4c3efbcdba.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_120ed4da3e3217b1e7fc0b4f48568e79.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_ad8d7db69509a71e348fa3bd5341d0a5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_7b5d38f1875f1b693f62ca6a108a1129.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+</book>

@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classdomain_1_1_graph">
+<title>domain::Graph class Reference</title>
+<para>Inheritance diagram for domain::Graph</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_graph__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for domain::Graph</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classdomain_1_1_graph__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Graph graph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Map&lt; String, Route &gt; mapRoutes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Map&lt; String, Town &gt; mapTowns</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classdomain_1_1_graph_1a656a81cf9b9638f21e9d582f397b7a06">Graph</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static synchronized <link linkend="classdomain_1_1_graph">Graph</link> <link linkend="classdomain_1_1_graph_1a57ce4efd344c059a565f4bb104fdee64">create</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_graph_1ab310780b6719b7b94e8eea0a0603f6c1">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String [] <link linkend="classdomain_1_1_graph_1a3789a71ab36974dce8c6c6aac41007f3">getAllTowns</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String [] <link linkend="classdomain_1_1_graph_1aa91cc429a4ea1d2c3341baea617e4028">getAllRoutes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String [] <link linkend="classdomain_1_1_graph_1a3ceedf597c66f500579a0e302c32062b">getAllRoutePossible</link> (
+<link linkend="classdomain_1_1_route">Route</link> trip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String [] <link linkend="classdomain_1_1_graph_1adab0f0e6ae7af913998f537aa0fe62f1">getConnections</link> (
+String key_town)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_graph_1a2ecd9722f3cbb7d97fda519101d249ed">addRoute</link> (
+String key_route)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_graph_1a356a31b6dba042cccb2a743caa07bfdf">addRoute</link> (
+String [] routes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_graph_1a93f040b758a5f920d195f2fbfdccc741">addTown</link> (
+String key_town)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classdomain_1_1_route">Route</link> <link linkend="classdomain_1_1_graph_1a3499aec1dfba7e73b34007cb4271e192">getRoute</link> (
+String key_route)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classdomain_1_1_graph_1ae98fbece4e39b0fb8979139f06b0a914">loadGraphRoutesFromFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="classdomain_1_1_graph_1aa8ae0912dcbd41c932ab29815e85af36">containsTown</link> (
+String key_town)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="classdomain_1_1_graph_1ab5da77fcafda90e249b7c3c049ccc3ff">isRouteAvailable</link> (
+String route)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classdomain_1_1_graph_1a7b7f2784b1c0ab3ab14ce6c271659913">calculateDistance</link> (
+String trip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <simplesect>
+                <title>Graph domain.Graph.graph</title>                
+<para>Referencia da unica instancia </para>
+
+                <para>Definition at line 33 of file Graph.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Graph.java</para></listitem></itemizedlist></para>
+            </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+            <simplesect>
+                <title>Map&lt;String , Route&gt; domain.Graph.mapRoutes</title>                
+<para>Containner de Rotas disponiveis Formato do key String ex: &apos;AB50&apos; </para>
+
+                <para>Definition at line 40 of file Graph.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Graph.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>Map&lt;String , Town&gt; domain.Graph.mapTowns</title>                
+<para>Container de cidades </para>
+
+                <para>Definition at line 45 of file Graph.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Graph.java</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="classdomain_1_1_graph_1a656a81cf9b9638f21e9d582f397b7a06">
+                <title>domain.Graph.Graph ()</title> <emphasis></emphasis>
+                
+<para>Construtor privado. Para instanciar o objeto sera utilizado o metodo <link linkend="classdomain_1_1_graph_1a57ce4efd344c059a565f4bb104fdee64">create()</link> </para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a57ce4efd344c059a565f4bb104fdee64">
+                <title>static synchronized Graph domain.Graph.create ()</title> <emphasis></emphasis>
+                
+<para>Metodo construtor para manter um Singleton de <link linkend="classdomain_1_1_graph">Graph</link>.</para>
+
+<para>Padrao Singleton <formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1ab310780b6719b7b94e8eea0a0603f6c1">
+                <title>void domain.Graph.clear ()</title> <emphasis></emphasis>
+                
+<para>Exclui todos as rotas e casas dos containners </para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a3789a71ab36974dce8c6c6aac41007f3">
+                <title>String [] domain.Graph.getAllTowns ()</title> <emphasis></emphasis>
+                
+<para>Retorna a lista dos keys de todas as cidades disponiveis</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Lista de keys das cidades </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1aa91cc429a4ea1d2c3341baea617e4028">
+                <title>String [] domain.Graph.getAllRoutes ()</title> <emphasis></emphasis>
+                
+<para>Retorna a lista dos keys de todas as rotas disponiveis</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Lsita de key das rotas </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a3ceedf597c66f500579a0e302c32062b">
+                <title>String [] domain.Graph.getAllRoutePossible (Route trip)</title> <emphasis></emphasis>
+                
+<para>Retorna todas as possiveis rotas para uma viagem</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>trip</entry>
+                                <entry>
+<para>Rota que indica o destino e a origem da viagem </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Retorna todas as possiveis rotas para a viagem </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1adab0f0e6ae7af913998f537aa0fe62f1">
+                <title>String [] domain.Graph.getConnections (String key_town)</title> <emphasis></emphasis>
+                
+<para>Retorna as conexoes disponiveis para uma determinada cidade</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key_town</entry>
+                                <entry>
+<para>Id da cidade que se deseja listar as conexoes existentes </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Lista das conexoes existentes para a cidade indicada pelo parametro key_town Caso a cidade nao exista retornara null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a2ecd9722f3cbb7d97fda519101d249ed">
+                <title>void domain.Graph.addRoute (String key_route)</title> <emphasis></emphasis>
+                
+<para>Cria e armazena no containner uma rota com o key indicado por key_route</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a356a31b6dba042cccb2a743caa07bfdf">
+                <title>void domain.Graph.addRoute (String[]routes)</title> <emphasis></emphasis>
+                
+<para>Cria e armazena no containner uma lista de rotas</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>routes</entry>
+                                <entry>
+<para>Lista dos keys para criacao das rotas </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a93f040b758a5f920d195f2fbfdccc741">
+                <title>void domain.Graph.addTown (String key_town)</title> <emphasis></emphasis>
+                
+<para>Cria e armazena no containner uma cidade identificada por key_town</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a3499aec1dfba7e73b34007cb4271e192">
+                <title>Route domain.Graph.getRoute (String key_route)</title> <emphasis></emphasis>
+                
+<para>Retorna rota indicado por key_route</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key_route</entry>
+                                <entry>
+<para>Key da rota que se deseja retornar </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Retorna a rota correspondente ao key_route. Se a rota nao existir retorna null. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1ae98fbece4e39b0fb8979139f06b0a914">
+                <title>void domain.Graph.loadGraphRoutesFromFile ()</title> <emphasis></emphasis>
+                
+<para>Carrega as rotas do mapa contidas no arquivo de entrada &quot;input.txt na propriedade &quot;graph.routes&quot;</para>
+
+<para><formalpara><title>See also: </title>
+
+<para>input.txt </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1aa8ae0912dcbd41c932ab29815e85af36">
+                <title>boolean domain.Graph.containsTown (String key_town)</title> <emphasis></emphasis>
+                
+<para>Verifica se a cidade existe e se a referencia do objeto no containner e valida</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>key_town</entry>
+                                <entry>
+<para>Identificados da cidade </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Retorna true se a cidade existe e com referencia valida </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1ab5da77fcafda90e249b7c3c049ccc3ff">
+                <title>boolean domain.Graph.isRouteAvailable (String route)</title> <emphasis></emphasis>
+                
+<para>Verifica se a rota e valida e disponivel</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Verifica</entry>
+                                <entry>
+<para>se a rota esta disponivel </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Retorna true se a rota for possivel </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classdomain_1_1_graph_1a7b7f2784b1c0ab3ab14ce6c271659913">
+                <title>double domain.Graph.calculateDistance (String trip)</title> <emphasis></emphasis>
+                
+<para>Calcula a distancia total de uma rota(viagem)</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>route</entry>
+                                <entry>
+<para>Key da rota que se deseja calcular a distancia </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Valor da distancia. Retornara 0 se a rota nao for possivel </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

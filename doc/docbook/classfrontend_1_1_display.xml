@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classfrontend_1_1_display">
+<title>frontend::Display class Reference</title>
+<para>Inheritance diagram for frontend::Display</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classfrontend_1_1_display__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for frontend::Display</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classfrontend_1_1_display__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static int index_line</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FORMAT_DOUBLE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FORMAT_DECIMAL</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FORMAT_ROUTE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FORMAT_STRING</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String FORMAT_COL1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String SEPARATOR</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String NEW_LINE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1a80dcb9108b718e006f2f97f287619236">showAllResults</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1a6704fd4ef43902afcf1bd072acc5dc71">printHead</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1ab2cef6740e59b37091b0215cf82a12f8">printResultShortest</link> (
+Map&lt; String, <link linkend="classdomain_1_1_route">Route</link>[]&gt; shortest)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1a891f43b99b7c9ff439b8eb0544774f48">printResultCalculateDistance</link> (
+<link linkend="classdomain_1_1_route">Route</link> [] routes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1a7480b033057115a5237b26915b52bbf4">printResultFilter</link> (
+<link linkend="classdomain_1_1_route">Route</link> [] routes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="classfrontend_1_1_display_1a193f8320f4b5d03906180bed773b8f52">printLine</link> (
+String line)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="classfrontend_1_1_display_1a80dcb9108b718e006f2f97f287619236">
+                <title>static void frontend.Display.showAllResults ()</title> <emphasis></emphasis>
+                
+<para>Mostra todos os resultados. </para>
+
+            </section>
+            <section xml:id="classfrontend_1_1_display_1a6704fd4ef43902afcf1bd072acc5dc71">
+                <title>static void frontend.Display.printHead ()</title> <emphasis></emphasis>
+                
+<para>Imprime cabecalho </para>
+
+            </section>
+            <section xml:id="classfrontend_1_1_display_1ab2cef6740e59b37091b0215cf82a12f8">
+                <title>static void frontend.Display.printResultShortest (Map&lt; String, Route[]&gt; shortest)</title> <emphasis></emphasis>
+                
+<para>Imprime resulatado relacionado da consulta de menores rotas</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>shortesd</entry>
+                                <entry>
+<para>Lista das menores rotas </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classfrontend_1_1_display_1a891f43b99b7c9ff439b8eb0544774f48">
+                <title>static void frontend.Display.printResultCalculateDistance (Route[] routes)</title> <emphasis></emphasis>
+                
+<para>Imprime resultado dos calculos de distancias das rotas</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>routes</entry>
+                                <entry>
+<para>Lista das rotas e seus respectivo valores de distancia </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classfrontend_1_1_display_1a7480b033057115a5237b26915b52bbf4">
+                <title>static void frontend.Display.printResultFilter (Route[] routes)</title> <emphasis></emphasis>
+                
+<para>Imprime resultados dos filtros 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>routes</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classfrontend_1_1_display_1a193f8320f4b5d03906180bed773b8f52">
+                <title>static void frontend.Display.printLine (String line)</title> <emphasis></emphasis>
+                
+<para>Imprime a linha na tela adicionando o numero da linha 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>line</entry>
+                                <entry>
+<para>Formatada e tabulada </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

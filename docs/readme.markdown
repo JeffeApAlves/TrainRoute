@@ -350,11 +350,14 @@ compute the distance, shortest route
 ----
 
 ## Ambiente de desenvolvimento
-1. IDE			Eclipse
-2. Linguagem	JAVA
-3. Tests		JUnit
-4. Doxygen		Documentacao
-5. WikiText
+
+| Tipo         | Tool         |
+|--------------| -------------|
+| IDE          | Eclipse      |
+| Linguagem    | JAVA         |
+| Tests        | JUnit        |
+| Doxygen      | Documentacao |
+| WikiText     |              |
 
 ---
 
@@ -364,8 +367,6 @@ Segue o link dos repositorios e da documentacao completa gerada pela ferramenta 
 
 Foran disponibilizados 2 links. A versao local pode apresentar problemas devido a exclusao dos arquivos .js necessaria antes do envio. 
  
-[Repositorio do projeto (Google Drive)](https://drive.google.com/open?id=0B1Y36ILbPc_-MW5laDVsWmFLNGs)
-
 [Documentacao (local)](html/index.html)
 
 [Documentacao (online)](https://rails-mobility-system.000webhostapp.com/index.html)

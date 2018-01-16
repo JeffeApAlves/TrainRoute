@@ -146,35 +146,39 @@ A classe responsavel pela leitura do arquivo de entrada e a DataFile
 
 Todas as entradas(propriedades) do arquivo estao mapeadas no **enun** chamado FileProperty
 
-	public enum FileProperty {
-	
-		/*Nome da proriedade onde estara mapeados as rotas disponiveis*/
-		GRAPH_ROUTES("graph.routes"),
-		/*Nome da proriedade onde estara mapeados as rotas para calculo da distancia */
-		DISTANCE_ROUTES("distance.routes"),
-		/*Nome da proriedade onde estara a condicao para filtro de rotas*/
-		FILTER_CONDITION("filtertrips[%d].condition"),
-		/*Nome da proriedade onde estara mapeados as rotas para aplicacao do filtro*/
-		FILTER_ROUTES("filtertrips[%d].routes"),
-		/*Nome da proriedade onde estara mapeados as rotas para calculo da memor distancia*/
-		SHORTEST_ROUTES("shortestRouter.trip");
-		
-		private String name;
-		
-		FileProperty(String name){this.name = name;	}
-		public String getName(){	return name;	}
-	}
+```java
+public enum FileProperty {
 
+	/*Nome da proriedade onde estara mapeados as rotas disponiveis*/
+	GRAPH_ROUTES("graph.routes"),
+	/*Nome da proriedade onde estara mapeados as rotas para calculo da distancia */
+	DISTANCE_ROUTES("distance.routes"),
+	/*Nome da proriedade onde estara a condicao para filtro de rotas*/
+	FILTER_CONDITION("filtertrips[%d].condition"),
+	/*Nome da proriedade onde estara mapeados as rotas para aplicacao do filtro*/
+	FILTER_ROUTES("filtertrips[%d].routes"),
+	/*Nome da proriedade onde estara mapeados as rotas para calculo da memor distancia*/
+	SHORTEST_ROUTES("shortestRouter.trip");
+
+	private String name;
+
+	FileProperty(String name){this.name = name;	}
+	public String getName(){	return name;	}
+}
+```
 Para leitura e filtro das informacoes foram utilizada expressoes regulares (regex)
 
-	if(open() && property!=null){
-		name_property = index>=0? String.format(property.getName(), index) : property.getName();
-		String s = prop.getProperty(name_property);
-		if(s!=null){
-			values = s.trim().toUpperCa.replaceAll("[^a-zA-Z0-9.,]", "").split(SEPARATOR);
-		}
+```java
+if(open() && property!=null){
+	name_property = index>=0? String.format(property.getName(), index) : property.getName();
+	String s = prop.getProperty(name_property);
+	if(s!=null){
+		values = s.trim().toUpperCa.replaceAll("[^a-zA-Z0-9.,]", "").split(SEPARATOR);
 	}
-	
+}
+
+```
+
 Versao (local): [[click para mais detahes]](html/classutilities_1_1_data_file.html)
 
 Versao (online): [[click para mais detahes]](https://rails-mobility-system.000webhostapp.com/enumutilities_1_1_file_property.html)
@@ -236,14 +240,16 @@ Delegando todo o trabalho as classes especialistas.
 
 **Static Public Member Functions**
 
-	static Route[] filterByStops1()
-	static Route[] filterByStops2()
-	static Route[] filterByDistance()
-	static Route[] calculateDistance()
-	static Map< String,Route[]> shortestRoute ()
-	static boolean init()
-	static void deInit()
 
+```java
+static Route[] filterByStops1();
+static Route[] filterByStops2();
+static Route[] filterByDistance();
+static Route[] calculateDistance();
+static Map< String,Route[]> shortestRoute ();
+static boolean init();
+static void deInit();
+```
 Versao (local): [[click para mais detalhes]](html/classcontroller_1_1_rail_system.html)
 
 Versao (online): [[click para mais detalhes]](https://rails-mobility-system.000webhostapp.com/classcontroller_1_1_rail_system.html)
@@ -367,10 +373,8 @@ Segue o link dos repositorios e da documentacao completa gerada pela ferramenta 
 
 Foran disponibilizados 2 links. A versao local pode apresentar problemas devido a exclusao dos arquivos .js necessaria antes do envio. 
  
-[Documentacao (local)](html/index.html)
+[Doxygen](html/index.html)
 
-[Documentacao (online)](https://rails-mobility-system.000webhostapp.com/index.html)
-
-[Documentacao (pdf)](latex/refman.pdf)
+[Versão (pdf)](latex/refman.pdf)
 
 ---

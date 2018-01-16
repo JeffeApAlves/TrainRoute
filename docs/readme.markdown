@@ -336,7 +336,8 @@ Abaixo podemos visualizar a saida no console.
 
 
 ## Engenharia de requisitos
-Para prospeccao dos requistos foi utilizado como material o documento do link desafio fornecido pelo **vagas.com**
+
+Para prospeccao dos requistos foi utilizado algumas regras para prospecção do requisitos e modelagem do sistema
 
 **Atributos/entidades (substantivos do texto)**
 
@@ -345,10 +346,6 @@ towns, route, graph, starting and ending town,railroad services,stops
 **Metodos (verbos do texto)**
 
 compute the distance, shortest route
-	
-[Instrucoes](attached/desafioVAGASp&d2017.pdf)
-
-[Desafio](attached/desafioVAGAS3TrainsVagadeDesenvolvedorRuby.pdf)
 
 ----
 

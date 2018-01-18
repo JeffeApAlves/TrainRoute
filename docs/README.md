@@ -1,8 +1,13 @@
 # Sistema gestão de rotas para mobilidade sobre trilhos
 
 ## Descrição da arquitetura (3 camadas)
-A implementação do software está baseada na arquitetura MVC (domínio, controller e View(Front End - TUI)
-Toda a lógica de negócio se encontra na camada domínio.
+A implementação do software está baseada na arquitetura MVC.
+
+*Model*: Toda a lógica de negócio se encontra na camada domínio 
+
+*controller:* Intermedia as requisições dos usuarios e retorna co o resultado 
+
+*View*: Front End - Interface com o usuario
 
 + O View recebe uma solicitação do usuário, neste caso nenhuma entrada e feita pelo o usuário. 
 + A camada controller recebe as solicitações do View e as delega para o domain. 
@@ -23,8 +28,7 @@ Esse diagrama representa uma abstração high level da implementação, não faz
 
 As informações no arquivo de entrada estão estruturadas na forma de propriedades
 
-
-**1. Mapeamentos das estacoes**
+**1. Mapeamentos das estações/rotas**
 
 	graph.routes = AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
 	
@@ -179,7 +183,7 @@ if(open() && property!=null){
 
 ```
 
-[[click para mais detalhes]](html/classutilities_1_1_data_file.html)
+Mais detalhes click [aqui](html/classutilities_1_1_data_file.html)
 
 ---
 
@@ -194,7 +198,7 @@ As cidades são armazenadas em maps e utiliza como chave o formato "A"
 ![](html/classdomain_1_1_graph__coll__graph.png) 
 
 
-[[click para mais detalhes]](html/classdomain_1_1_graph.html)
+Mais detalhes click [aqui](html/classdomain_1_1_graph.html)
 
 
 ---
@@ -208,21 +212,20 @@ são elas:
 
 ![](html/classdomain_1_1_filter__coll__graph.png)
 
-[[click para mais detalhes]](html/classdomain_1_1_filter.html)
+Mais detalhes click [aqui](html/classdomain_1_1_filter.html)
 
 
 **ShortestRoute:** Utilizara a propriedade *shortestRouter.trip* do arquivo de entrada.
 
 ![](html/classdomain_1_1_shortest_route__coll__graph.png)
 
-[[click para mais detalhes]](html/classdomain_1_1_shortest_route.html)
-
+Mais detalhes click [aqui](html/classdomain_1_1_shortest_route.html)
 
 **CalculateDistance** Utilizara a propriedade *distance.routes* do arquivo de entrada.
 
 ![](html/classdomain_1_1_calculate_distance__coll__graph.png)
 
-[[click para mais detalhes]](html/classdomain_1_1_calculate_distance.html)
+Mais detalhes click [aqui](html/classdomain_1_1_calculate_distance.html)
 ---
 
 ## Controle
@@ -242,7 +245,7 @@ static Map< String,Route[]> shortestRoute ();
 static boolean init();
 static void deInit();
 ```
-[[click para mais detalhes]](html/classcontroller_1_1_rail_system.html)
+Mais detalhes click [aqui](html/classcontroller_1_1_rail_system.html)
 
 ----
 
@@ -262,8 +265,7 @@ static void deInit();
 
 **test:** Tests cases para JUnit
 
-[[click para mais detalhes]](html/namespaces.html)
-
+Mais detalhes click [aqui](html/namespaces.html)
 
 ---
 
@@ -329,7 +331,6 @@ Abaixo podemos visualizar a saída no console.
 
 ---
 
-
 ## Engenharia de requisitos
 
 Para prospecção dos requisitos foi utilizado algumas regras para prospecção do requisitos e modelagem do sistema
@@ -357,7 +358,6 @@ compute the distance, shortest route
 ---
 
 ## Links
-
 Segue o link dos repositórios e da documentação completa gerada pela ferramenta Doxygen.
 
 Foram disponibilizados 2 links. A versão local pode apresentar problemas devido a exclusão dos arquivos .js necessária antes do envio. 

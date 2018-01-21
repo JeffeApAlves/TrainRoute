@@ -1,5 +1,7 @@
 # Sistema gestão de rotas para mobilidade sobre trilhos
 
+Utilização de regex em arquivos de configuração em um contexto de gerenciamento de rotas de uma linha ferrea
+
 ## Descrição da arquitetura (3 camadas)
 A implementação do software está baseada na arquitetura MVC.
 

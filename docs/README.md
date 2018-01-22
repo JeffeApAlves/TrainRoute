@@ -345,22 +345,21 @@ towns, route, graph, starting and ending town,railroad services,stops
 
 compute the distance, shortest route
 
----
-
 ## Ambiente de desenvolvimento
 
-| Tipo         | Tool         |
-|--------------| -------------|
-| IDE          | Eclipse      |
-| Linguagem    | JAVA         |
-| Tests        | JUnit        |
-| Doxygen      | Documentacao |
-| WikiText     |              |
+*Editores:* VS Code for linux, nano
 
+*IDEs:* Eclipse
+
+*Linguagem:* Java
+
+*Tests:* JUnit
+
+*Misc:* Doxygen , wikitext
 
 ## Links
 
-Documentação gerada via Doxygen [see here][doc_doxygen] [versão (pdf][doc_pdf]
+Documentação: |[WEB][doc_doxygen]|[PDF][doc_pdf]|
 
 
 [doc_doxygen]:html/index.htm

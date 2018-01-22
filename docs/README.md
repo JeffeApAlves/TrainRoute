@@ -359,6 +359,9 @@ compute the distance, shortest route
 
 
 ## Links
-Segue o link dos repositórios e da documentação completa gerada pela ferramenta Doxygen.
 
-Documentação gerada via Doxygen [see here](html/index.html) [versão (pdf)](latex/refman.pdf)
+Documentação gerada via Doxygen [see here][doc_doxygen] [versão (pdf][doc_pdf]
+
+
+[doc_doxygen]:html/index.htm
+[doc_pdf]:latex/refman.pdf

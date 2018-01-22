@@ -345,7 +345,7 @@ towns, route, graph, starting and ending town,railroad services,stops
 
 compute the distance, shortest route
 
-----
+---
 
 ## Ambiente de desenvolvimento
 
@@ -357,16 +357,8 @@ compute the distance, shortest route
 | Doxygen      | Documentacao |
 | WikiText     |              |
 
----
 
 ## Links
 Segue o link dos repositórios e da documentação completa gerada pela ferramenta Doxygen.
 
-Foram disponibilizados 2 links. A versão local pode apresentar problemas devido a exclusão dos arquivos .js necessária antes do envio. 
- 
-[Doxygen](html/index.html)
-
-[Versão (pdf)](latex/refman.pdf)
-
----
-
+Documentação gerada via Doxygen [see here](html/index.html) [versão (pdf)](latex/refman.pdf)

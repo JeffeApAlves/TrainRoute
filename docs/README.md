@@ -17,14 +17,11 @@ A implementação do software está baseada na arquitetura MVC.
 + O controller disponibiliza o resultado para o View.
 + View mostra o resultado.  
 
-
 ### Diagrama
 
 Esse diagrama representa uma abstração high level da implementação, não faz parte do portfólio de diagramas do padrão UML.
 
 ![](attached/Arquitetura.png)
-
----
 
 ## Arquivo de entrada (input.txt)
 
@@ -44,7 +41,6 @@ As informações no arquivo de entrada estão estruturadas na forma de proprieda
 
 >Diagrama está baseado na descrição do teste. 
 
-----
 
 **2. Mapeamento das rotas para cálculo da distância**
 
@@ -62,8 +58,6 @@ As informações no arquivo de entrada estão estruturadas na forma de proprieda
 >* 3-The distance of the route A-D-C.
 >* 4-The distance of the route A-E-B-C-D.
 >* 5-The distance of the route A-E-D.
-
-----
 
 **3. Condição de STOPS**
 	
@@ -84,8 +78,6 @@ As informações no arquivo de entrada estão estruturadas na forma de proprieda
 >* 6) The number of trips starting at C and ending at C with a maximum of 3 stops. In the sample data below, there are two such trips: 
 C-D-C (2 stops). and C-E-B-C (3 stops).
 
----
-
 **4. Condição de STOPS**
 	
 	filtertrips[2].condition = STOPS==4
@@ -105,7 +97,6 @@ C-D-C (2 stops). and C-E-B-C (3 stops).
 
 >* 7-The number of trips starting at A and ending at C with exactly 4 stops. In the sample data below, there are three such trips: A to C (via B,C,D); A to C (via D,C,D); and A to C (via D,E,B). 
 
----
 
 **5. Procurar menor rota possível**
 
@@ -122,7 +113,6 @@ C-D-C (2 stops). and C-E-B-C (3 stops).
 >* 8-The length of the shortest route (in terms of distance to travel) from A to C.
 >* 9-The length of the shortest route (in terms of distance to travel) from B to B.
 
-----
  
 **6. Condição de distância**
 
@@ -143,8 +133,6 @@ C-D-C (2 stops). and C-E-B-C (3 stops).
 CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC.
 
 [Veja o arquivo de entrada](../input.txt)
-
----
 
 ## Leitura do arquivo de entrada
 
@@ -172,6 +160,7 @@ public enum FileProperty {
 	public String getName(){	return name;	}
 }
 ```
+
 Para leitura e filtro das informações foram utilizadas expressões regulares (regex)
 
 ```java
@@ -187,8 +176,6 @@ if(open() && property!=null){
 
 Mais detalhes click [aqui](html/classutilities_1_1_data_file.html)
 
----
-
 ## Gerenciamento das rotas
 
 As informações, sobre as rotas disponíveis, lidas do arquivo de entrada ficam na entidade **graph**
@@ -202,8 +189,6 @@ As cidades são armazenadas em maps e utiliza como chave o formato "A"
 
 Mais detalhes click [aqui](html/classdomain_1_1_graph.html)
 
-
----
 
 ##Execução das consultas
 
@@ -249,7 +234,6 @@ static void deInit();
 ```
 Mais detalhes click [aqui](html/classcontroller_1_1_rail_system.html)
 
-----
 
 ## Packages
 
@@ -269,7 +253,6 @@ Mais detalhes click [aqui](html/classcontroller_1_1_rail_system.html)
 
 Mais detalhes click [aqui](html/namespaces.html)
 
----
 
 ## Testes
 
@@ -278,14 +261,12 @@ Tests cases para serem utilizado com o framework JUnit. Para cada classe da apli
 
 ![](attached/testscase.png)
 
-----
 
 ## Text User interface
 Abaixo podemos visualizar a saída no console.
 
 ![ScreenShot](attached/screenshot.png)
 
----
 
 ## Boas práticas
 
@@ -331,7 +312,6 @@ Abaixo podemos visualizar a saída no console.
 
 **14. Modelagem e documentação:** As ferramentas de modelagem e documentação estão sincronizadas com a solução
 
----
 
 ## Engenharia de requisitos
 
